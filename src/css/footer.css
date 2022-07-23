@@ -20,15 +20,14 @@
   font-size: 15px;
   font-weight: 100;
   color: #e5ffee;
-  
 }
 
-a:link {
+.FooterLinksStyled a:link {
   color: #e5ffee;
 }
-a:visited {
+.FooterLinksStyled a:visited {
   color: #e5ffee;
 }
-a:hover {
-  color: #17C24F;
-}
+/* .FooterLinksStyleda:hover {
+  color: #17c24f;
+} */
