@@ -1,12 +1,21 @@
 import "../css/header.css";
 import "../css/app.css";
-import Logo from "../images/logoandiconSVGs/codeStationRectangleLogo.svg";
+import Logo from "../images/logoandiconSVGs/codeStationSquareLogo.svg";
 
 const Header = () => {
   return (
     <div className="HeaderStyled">
-      <img className="ImgStyle" src={Logo} alt="logo" />
-      <h1 className="Header1Styled">Header Banner</h1>
+      <div className="HeaderCircleFlex">
+
+          <img className="ImgStyle" src={Logo} alt="logo" />
+
+        <div className="Circle_1" />
+        <div className="Circle_1" />
+        <div className="Circle_1" />
+        <div className="Circle_1" />
+      </div>
+
+      {/* <h1 className="Header1Styled">Header Banner</h1> */}
     </div>
   );
 };

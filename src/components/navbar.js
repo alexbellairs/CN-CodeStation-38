@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import "../css/navbar.css";
 
 const Navbar = () => {
-  const navbarList = ["Home", "Events", "About", "Account"];
+  const navbarList = ["Profile", "Events", "About", "Account"];
 
   return (
     <div className="NavbarStyled">
