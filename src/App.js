@@ -17,8 +17,8 @@ const App = () => {
   const [user, setUser] = useState();
   return (
     <div className="AppStyles">
+      <Header />
       <BrowserRouter>
-        <Header />
         {user && <Navbar />}
         <Routes>
           <Route path="/" element={<Login setter={setUser} user={user} />} />

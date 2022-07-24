@@ -2,6 +2,7 @@ import { useState } from "react";
 import { updateFetch, deleteFetch } from "../utlis";
 import { Link } from "react-router-dom";
 import "../css/app.css";
+import Quote from "../components/quote";
 
 const Account = ({ setter, user }) => {
   const [username, setUsername] = useState();
@@ -21,6 +22,7 @@ const Account = ({ setter, user }) => {
 
   return (
     <div className="AppStyles">
+      <Quote />
       <div className="ContentStyled">
         <h1 className="Header1Styled">Account</h1>
         <form onSubmit={submitHandler}>
