@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import { Navigate } from "react-router-dom";
 import { signUp, tokenFetch } from "../utlis";
 import "../css/app.css";
+import Quote from "../components/quote";
 
 const Login = ({ setter, user }) => {
   const [username, setUsername] = useState();
@@ -21,8 +22,9 @@ const Login = ({ setter, user }) => {
   };
   return (
     <div className="AppStyles">
+      <Quote />
       <div className="ContentStyled">
-        {user && <Navigate to="/home" />}
+        {user && <Navigate to="/profile" />}
         <form onSubmit={submitHandler}>
           <input
             onChange={(e) => setUsername(e.target.value)}

@@ -9,10 +9,8 @@ const Navbar = () => {
       {navbarList.map((navbarItem, i) => {
         let path = "/" + navbarItem;
         return (
-          <div className="NavItemStyled">
-            <Link to={path} key={i}>
-              {navbarItem}
-            </Link>
+          <div className="NavItemStyled" key={i}>
+            <Link to={path}>{navbarItem}</Link>
           </div>
         );
       })}

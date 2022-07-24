@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 // import Navbar from "../components/navbar";
 import { fetechContest } from "../utlis";
 import ContestComp from "../components/contest";
+import Quote from "../components/quote";
 
 const Events = ({ setter, user }) => {
   // useState
@@ -13,7 +14,7 @@ const Events = ({ setter, user }) => {
 
   return (
     <div>
-      {/* <Navbar user={user} setter={setter} /> */}
+      <Quote />
       <h1 className="Header1Styled">Events {user}</h1>
       <div>
         <div>

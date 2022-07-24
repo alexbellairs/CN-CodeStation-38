@@ -85,3 +85,15 @@ export const fetechContest = async (setter) => {
     console.log(error);
   }
 };
+
+// Kat - Programming Quotes API -
+
+export const fetchQuotes = async (setter) => {
+  try {
+    const res = await fetch(process.env.REACT_APP_QUOTES);
+    const data = await res.json();
+    setter(data);
+  } catch (error) {
+    console.log(error);
+  }
+};

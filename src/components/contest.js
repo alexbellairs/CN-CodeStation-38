@@ -1,6 +1,15 @@
-import Options from "./options";
+import Options from "./notUsing/options";
 
-const ContestComp = ({ name, url, start_time, end_time, site, status }) => {
+const ContestComp = ({
+  name,
+  url,
+  start_time,
+  end_time,
+  site,
+  status,
+  handleInterested,
+  handleNotInterested,
+}) => {
   return (
     <div>
       <h3>{name}</h3>
@@ -13,6 +22,8 @@ const ContestComp = ({ name, url, start_time, end_time, site, status }) => {
         <li>Location: {site}</li>
         <li>Status: {status}</li>
       </ul>
+      <button onClick={handleInterested}>Interested</button>
+      <button onClick={handleNotInterested}>Not Interested</button>
 
       <Options />
     </div>
