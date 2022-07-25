@@ -1,29 +1,19 @@
-import {
-  Circle1,
-  Circle2,
-  Circle3,
-  Circle4,
-  LoginHeaderStyles,
-  LoginImg,
-  LoginImgHolder,
-} from "./loginHeader.styles";
+import "./loginHeader.css";
 // import LoginPic from "../../images/womanWithLaptop.jpg";
 import LoginLogo from "../../images/codeStationSquareLogo 2.png";
 
 const LoginHeader = () => {
   return (
     <div>
-      <LoginHeaderStyles>
-        <LoginImgHolder>
-          <LoginImg src={LoginLogo} alt="Square Logo" />
-        </LoginImgHolder>
-        <Circle1></Circle1>
-        <Circle2></Circle2>
-        <Circle3></Circle3>
-        <Circle4></Circle4>
-
-        {/* <img src={LoginPic} alt="Woman with laptop" /> */}
-      </LoginHeaderStyles>
+      <div className="LoginHeaderStyles">
+        <div className="LoginImgHolder">
+          <img className="LoginImg" src={LoginLogo} alt="Square Logo" />
+        </div>
+        <div className="Circle1"></div>
+        <div className="Circle2"></div>
+        <div className="Circle3"></div>
+        <div className="Circle4"></div>
+      </div>
     </div>
   );
 };
