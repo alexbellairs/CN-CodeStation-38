@@ -4,6 +4,7 @@ import { signUp, tokenFetch } from "../utlis";
 import "../css/app.css";
 import "../css/login.css";
 import Quote from "../pageComponents/quote/quote";
+import LoginHeader from "../pageComponents/loginHeader1/loginHeader";
 // import womenWithLaptop from "../images/womanWithLaptop.jpg";
 
 const Login = ({ setter, user }) => {
@@ -24,6 +25,8 @@ const Login = ({ setter, user }) => {
   };
   return (
     <div className="AppStyles">
+      <LoginHeader />
+
       <Quote />
       {/* <img className="ImgStyle2" src={womenWithLaptop} alt="womenWithLaptop" /> */}
       {/* <h4 className="Text">Over 10,000 coding events at your finger tips</h4> */}
