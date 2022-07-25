@@ -3,8 +3,9 @@ import Navbar from "./components/navbar";
 
 import Login from "./pages/login";
 import Profile from "./pages/profile";
-import Events from "./pages/eventsFeed";
+import Feed from "./pages/feed";
 import About from "./pages/about";
+import Contact from "./pages/contact";
 import Header from "./components/header";
 import Footer from "./components/footer";
 
@@ -23,8 +24,9 @@ const App = () => {
         <Routes>
           <Route path="/" element={<Login setter={setUser} user={user} />} />
           <Route path="/profile" element={<Profile />} />
-          <Route path="/events" element={<Events />} />
+          <Route path="/feed" element={<Feed />} />
           <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
           <Route
             path="/account"
             element={<Account setter={setUser} user={user} />}
