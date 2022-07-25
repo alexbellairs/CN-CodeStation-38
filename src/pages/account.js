@@ -2,7 +2,9 @@ import { useState } from "react";
 import { updateFetch, deleteFetch } from "../utlis";
 import { Link } from "react-router-dom";
 import "../css/app.css";
+import "../css/account.css";
 import Quote from "../components/quote";
+import harold from "../images/harold.jpg";
 
 const Account = ({ setter, user }) => {
   const [username, setUsername] = useState();
@@ -21,10 +23,12 @@ const Account = ({ setter, user }) => {
   };
 
   return (
+    <body>
     <div className="AppStyles">
       <Quote />
+      <img className="imgH" src={harold} />
       <div className="ContentStyled">
-        <h1 className="Header1Styled">Account</h1>
+        <h1 className="Header1Styled">my events</h1>
         <form onSubmit={submitHandler}>
           <h2>Update Profile</h2>
           <input
@@ -55,6 +59,7 @@ const Account = ({ setter, user }) => {
         </button>
       </div>
     </div>
+    </body>
   );
 };
 
