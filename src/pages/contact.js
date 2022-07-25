@@ -1,9 +1,9 @@
-import { React, } from "react";
+import { React } from "react";
 // import ReactDOM from "react";
-// import "../css/app.css";
-// import "../css/contact.css";
-import Quote from "../pageComponents/quote/quote";
-// import threePeople from "../images/threePeople.jpg";
+import "../css/app.css";
+import "../css/contact.css";
+// import Quote from "../pageComponents/quote/quote";
+import threePeople from "../images/threePeople.jpg";
 
 // function ContactForm() {
 //   const [inputs, setInputs] = useState({});
@@ -59,29 +59,19 @@ import Quote from "../pageComponents/quote/quote";
 const Contact = () => {
   return (
     <div className="contactPage">
-      <Quote />
+      {/* <Quote /> */}
       <div className="imageBox">
-        {/* <img src={threePeople} /> */}
+        <img className="contactImage" src={threePeople} />
       </div>
       <div className="contactInput">
         <h1>const contact = require (‘hello there’)</h1>
         {/* <ContactForm/> */}
-        <p className="name">const Name =</p>
+        <p>const Name =</p>
         <div className="nameBox"></div>
-        <p className="email">const Email =</p>
+        <p>const Email =</p>
         <div className="emailBox"></div>
-        <p className="message">let Message =</p>
+        <p>let Message =</p>
         <div className="messageBox"></div>
-
-        {/* import Quote from "../components/quote";
-import "../css/app.css";
-
-const Profile = () => {
-  return (
-    <div className="AppStyles">
-      <Quote />
-      <div className="ContentStyled"> */}
-        {/* <h1 className="Header1Styled">Contact</h1> */}
       </div>
     </div>
   );
