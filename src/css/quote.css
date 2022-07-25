@@ -1,6 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;400&family=Lobster&display=swap");
+
 .quote {
+  font-family: "Inter", sans-serif;
   background-color: #0e6029;
-  padding: 10px;
+  box-sizing: border-box;
+  border-top: solid #e5ffee;
+  padding: 0.5%;
   left: 0px;
   height: auto;
   width: auto;

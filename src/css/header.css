@@ -2,34 +2,17 @@
   /* border: solid 1px black; */
   /* padding: 10px; */
   width: auto;
-  background-color: #0e6029;
+  background-color: #e5ffee;
 }
 
-.HeaderCircleFlex {
+.Position {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: right;
 }
-
-.Circle_1 {
-  width: 100px;
-  height: 100px;
-  background: #e5ffee;
-  border-radius: 50%;
-  margin-top: 30px;
-  margin-left: 50px;
-  margin-bottom: 20px;
-}
-
-
 
 .ImgStyle {
   /* margin-top: 10px; */
-  width: 80%;
-  background-color: #e5ffee;
-  height: 100px;
-  width: 150px;
-  margin-left: 50px;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  padding: 1%;
+  width: 25vw;
+  height: 4vw;
 }
