@@ -7,14 +7,13 @@ import Quote from "../components/quote";
 const Events = ({ setter, user }) => {
   // useState
   const [contests, setContest] = useState([]);
-  const storeContests = [...contests];
   useEffect(() => {
     fetchContest(setContest);
   }, []);
 
   // Handle click for removing items
   const handleRemove = (index) => {
-    storeContests.splice(index, 1);
+    let storeContests = storeContests.splice(index, 1);
     setContest(storeContests);
   };
 
