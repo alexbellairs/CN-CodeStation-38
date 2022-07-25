@@ -2,6 +2,7 @@ import ContentItem from "../components/contentItem";
 import "../css/app.css";
 import "../css/about.css";
 import Quote from "../components/quote";
+import prettyCodeLight from "../images/Used Stock Photos/prettyCodeLight.jpg";
 
 const About = () => {
   return (
@@ -13,7 +14,7 @@ const About = () => {
         <div className="subTitles">
           <h2>What is Code Station?</h2>
           <h2>Who made this?</h2>
-          </div>
+        </div>
         <div className="whatIsCodestation">
           <div className="whatIsText">
             <p>
@@ -29,7 +30,9 @@ const About = () => {
               congue nec.
             </p>
           </div>
-          <div className="whatIsImage"></div>
+          <div className="whatIsImage">
+            <img src={prettyCodeLight} />
+          </div>
         </div>
         <div className="ConentFlexbox">
           <ContentItem />

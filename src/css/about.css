@@ -14,7 +14,7 @@
   flex-direction: row;
   justify-content: space-between;
   margin-bottom: 3em;
-  color: #0E6029;
+  color: #0e6029;
   width: 100%;
 }
 
@@ -36,13 +36,31 @@
 }
 
 .whatIsText {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
   width: 50%;
   text-align: left;
   margin-left: 5px;
+  justify-content: start;
+  position: absolute;
+  left: 0;
+}
+
+img {
+  justify-content: flex-end;
+  width: 49%;
+  border-radius: 0px 30px 30px 0px;
 }
 
 .whatIsImage {
-  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: flex-end;
+  position: absolute;
+  right: 0;
+  height: 100%;
 }
 
 .ContentFlexBox {
