@@ -18,7 +18,7 @@ const App = () => {
   const [user, setUser] = useState();
   return (
     <div className="AppStyles">
-      <Header />
+      {user && <Header />}
       <BrowserRouter>
         {user && <Navbar />}
         <Routes>
