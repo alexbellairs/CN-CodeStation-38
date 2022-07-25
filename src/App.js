@@ -3,7 +3,7 @@ import Navbar from "./components/navbar";
 
 import Login from "./pages/login";
 import Profile from "./pages/profile";
-import Events from "./pages/events";
+import Events from "./pages/eventsFeed";
 import About from "./pages/about";
 import Header from "./components/header";
 import Footer from "./components/footer";

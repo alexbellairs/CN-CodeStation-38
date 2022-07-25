@@ -76,7 +76,7 @@ export const deleteFetch = async (setter) => {
 };
 
 // Kat - Code Contest API -
-export const fetechContest = async (setter) => {
+export const fetchContest = async (setter) => {
   try {
     const res = await fetch(process.env.REACT_APP_KONTEST);
     const data = await res.json();

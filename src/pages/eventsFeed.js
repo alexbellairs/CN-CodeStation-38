@@ -1,20 +1,19 @@
 import { useEffect, useState } from "react";
 // import Navbar from "../components/navbar";
-import { fetechContest } from "../utlis";
+import { fetchContest } from "../utlis";
 import ContestComp from "../components/contest";
 import Quote from "../components/quote";
 
 const Events = ({ setter, user }) => {
   // useState
   const [contests, setContest] = useState([]);
-
+  const storeContests = [...contests];
   useEffect(() => {
-    fetechContest(setContest);
+    fetchContest(setContest);
   }, []);
 
   // Handle click for removing items
   const handleRemove = (index) => {
-    let storeContests = [...contests];
     storeContests.splice(index, 1);
     setContest(storeContests);
   };
@@ -36,25 +35,27 @@ const Events = ({ setter, user }) => {
 
   return (
     <div>
-      <Quote />
-      <h1 className="Header1Styled">Events</h1>
-      <div>
+      <div className="eventsPage">
+        <Quote />
+        <h1 className="Header1Styled">Events</h1>
         <div>
-          {contests.map((contest, i) => {
-            return (
-              <ContestComp
-                key={i}
-                name={contest.name}
-                url={contest.url}
-                start_time={contest.start_time}
-                end_time={contest.end_time}
-                site={contest.site}
-                status={contest.status}
-                handleInterested={() => handleInterested(i)}
-              />
-            );
-          })}
-          ,
+          <div>
+            {contests.map((contest, i) => {
+              return (
+                <ContestComp
+                  key={i}
+                  name={contest.name}
+                  url={contest.url}
+                  start_time={contest.start_time}
+                  end_time={contest.end_time}
+                  site={contest.site}
+                  status={contest.status}
+                  handleInterested={() => handleInterested(i)}
+                />
+              );
+            })}
+            ,
+          </div>
         </div>
       </div>
     </div>
