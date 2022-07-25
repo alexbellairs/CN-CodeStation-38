@@ -6,8 +6,8 @@ import Profile from "./pages/profile";
 import Feed from "./pages/feed";
 import About from "./pages/about";
 import Contact from "./pages/contact";
-import Header from "./components/header";
-import Footer from "./components/footer";
+import Header from "./pageComponents/header1/header";
+import Footer from "./pageComponents/footer1/footer";
 
 import { useState } from "react";
 import Account from "./pages/account";

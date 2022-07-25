@@ -1,9 +1,9 @@
-import { React, useState } from "react";
-import ReactDOM from "react";
-import "../css/app.css";
-import "../css/contact.css";
-import Quote from "../components/quote";
-import threePeople from "../images/threePeople.jpg";
+import { React, } from "react";
+// import ReactDOM from "react";
+// import "../css/app.css";
+// import "../css/contact.css";
+import Quote from "../pageComponents/quote/quote";
+// import threePeople from "../images/threePeople.jpg";
 
 // function ContactForm() {
 //   const [inputs, setInputs] = useState({});
@@ -61,7 +61,7 @@ const Contact = () => {
     <div className="contactPage">
       <Quote />
       <div className="imageBox">
-        <img src={threePeople} />
+        {/* <img src={threePeople} /> */}
       </div>
       <div className="contactInput">
         <h1>const contact = require (‘hello there’)</h1>

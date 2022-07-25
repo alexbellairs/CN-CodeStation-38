@@ -1,22 +1,22 @@
 .AppStyles {
+  min-height: 700px;
   text-align: center;
-  /* border: solid 1px black; */
-  /* padding: 10px; */
   width: auto;
+  background-color: #e5ffee;
 }
 
-.ContentStyled {
+/* .ContentStyled {
   text-align: center;
   min-height: 700px;
-}
+} */
 
-.Header1Styled {
+/* .Header1Styled {
   border: solid 1px black;
   padding: 10px;
-}
+} */
 
-.FlexBoxStyled {
+/* .FlexBoxStyled {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-}
+} */

@@ -1,4 +1,4 @@
-import Quote from "../components/quote";
+import Quote from "../pageComponents/quote/quote";
 import "../css/app.css";
 
 const Profile = () => {
