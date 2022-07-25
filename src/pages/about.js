@@ -1,7 +1,7 @@
 import ContentItem from "../components/contentItem";
 import "../css/app.css";
 import "../css/about.css";
-import Quote from "../components/quote";
+import Quote from "../pageComponents/quote/quote";
 
 const About = () => {
   return (

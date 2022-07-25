@@ -1,12 +1,10 @@
-.AppStyles{
-    /* width: 1920px;
-    height: 1080px; */
+/* .AppStyles{
+
     left: 0px;
     top: 0px;
-}
+} */
 
-.SignupStyle {
-    /* position: absolute; */
+/* .SignupStyle {
     width: 315.71px;
     height: 73.24px;
     left: 1173px;
@@ -19,18 +17,17 @@
     font-size: 48px;
     line-height: 58px;
     color: #FFFFFF;
-}
+} */
 
-.ImgStyle2{
+/* .ImgStyle2{
     width: 625.72px;
     height: 500.58px;
-    /* margin-left: 97.05px;
-    margin-top: 406.08px; */
+
     border-radius: 0px 0px 275px 275px;
     float: left;
-}
+}  */
 
-.AlreadyHaveStyle{
+/* .AlreadyHaveStyle{
     width: 313.18px;
     height: 35.36px;
     left: 1173px;
@@ -41,10 +38,9 @@
     font-size: 24px;
     line-height: 29px;
     color: #0E6029;
-    
-}
+} */
 
-.Text{
+/* .Text{
 width: 734px;
 height: 272px;
 left: 988px;
@@ -57,4 +53,4 @@ font-size: 48px;
 line-height: 58px;
 
 color: #0E6029;
-}
+} */
