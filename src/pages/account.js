@@ -42,7 +42,9 @@ const Account = ({ setter, user }) => {
           />
           <button type="submit">Update</button>
         </form>
-        <button onClick={() => deleteFetch(setter)}>Delete Account</button>
+        <button onClick={() => deleteFetch(setter())}>
+          <Link to="/">Delete Account</Link>
+        </button>
 
         <button
           onClick={() => {

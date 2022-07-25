@@ -1,5 +1,3 @@
-import Options from "./notUsing/options";
-
 const ContestComp = ({
   name,
   url,
@@ -8,8 +6,8 @@ const ContestComp = ({
   site,
   status,
   handleInterested,
-  handleNotInterested,
 }) => {
+
   return (
     <div>
       <h3>{name}</h3>
@@ -23,9 +21,6 @@ const ContestComp = ({
         <li>Status: {status}</li>
       </ul>
       <button onClick={handleInterested}>Interested</button>
-      <button onClick={handleNotInterested}>Not Interested</button>
-
-      <Options />
     </div>
   );
 };

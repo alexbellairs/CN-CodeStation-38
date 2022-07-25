@@ -12,10 +12,32 @@ const Events = ({ setter, user }) => {
     fetechContest(setContest);
   }, []);
 
+  // Handle click for removing items
+  const handleRemove = (index) => {
+    let storeContests = [...contests];
+    storeContests.splice(index, 1);
+    setContest(storeContests);
+  };
+
+  //
+  const [userEvents, setUserEvents] = useState([{}]);
+  //
+  const handleInterested = (index) => {
+    let storeContests = [...contests];
+    console.log(storeContests);
+    let storeUserEvent = [...userEvents];
+    console.log(storeUserEvent);
+    let toStore = storeContests[index].contests;
+    console.log(toStore);
+    storeUserEvent.push(toStore);
+    setUserEvents(storeUserEvent);
+    handleRemove(index);
+  };
+
   return (
     <div>
       <Quote />
-      <h1 className="Header1Styled">Events {user}</h1>
+      <h1 className="Header1Styled">Events</h1>
       <div>
         <div>
           {contests.map((contest, i) => {
@@ -28,6 +50,7 @@ const Events = ({ setter, user }) => {
                 end_time={contest.end_time}
                 site={contest.site}
                 status={contest.status}
+                handleInterested={() => handleInterested(i)}
               />
             );
           })}
