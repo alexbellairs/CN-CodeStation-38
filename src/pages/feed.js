@@ -4,7 +4,7 @@ import { fetechContest } from "../utlis";
 import ContestComp from "../components/contest";
 import Quote from "../components/quote";
 
-const Events = ({ setter, user }) => {
+const Feed = ({ setter, user }) => {
   // useState
   const [contests, setContest] = useState([]);
 
@@ -37,7 +37,7 @@ const Events = ({ setter, user }) => {
   return (
     <div>
       <Quote />
-      <h1 className="Header1Styled">Events</h1>
+      <h1 className="Header1Styled">feed</h1>
       <div>
         <div>
           {contests.map((contest, i) => {
@@ -61,4 +61,4 @@ const Events = ({ setter, user }) => {
   );
 };
 
-export default Events;
+export default Feed;
