@@ -1,3 +1,4 @@
+
 import { React, useState } from "react";
 import ReactDOM from "react";
 import "../css/app.css";
@@ -69,9 +70,19 @@ const Contact = () => {
         <p className= "name">const Name =</p><div className="nameBox"></div>
         <p className= "email">const Email =</p><div className="emailBox"></div>
         <p className= "message">let Message =</p><div className="messageBox"></div>
+
+import Quote from "../components/quote";
+import "../css/app.css";
+
+const Profile = () => {
+  return (
+    <div className="AppStyles">
+      <Quote />
+      <div className="ContentStyled">
+        <h1 className="Header1Styled">Contact</h1>
       </div>
     </div>
   );
 };
 
-export default Contact;
+
