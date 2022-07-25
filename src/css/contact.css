@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+.contactPage {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  min-height: 772px;
+  background-color: #e5ffee;
+}
+
+img {
+  position: absolute;
+  left: 0px;
+  width: 1046px;
+  height: 843;
+}
+
+.contactInput {
+  display: flex;
+  flex-direction: column;
+  left: 1050px;
+  position: absolute;
+}
+
+h1 {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 40px;
+}
+
+.name {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: right;
+  color: #0e6029;
+}
+
+.nameBox {
+  box-sizing: border-box;
+  width: 375px;
+  height: 48px;
+  left: 1330px;
+  background: #ffffff;
+  border: 1px solid #0e6029;
+  border-radius: 5px;
+}

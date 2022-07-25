@@ -1,0 +1,14 @@
+
+.FooterLinksStyled {
+  font-size: 15px;
+  font-weight: 100;
+  color: #e5ffee;
+}
+
+.FooterLinksStyled a:link {
+  color: #e5ffee;
+}
+.FooterLinksStyled a:visited {
+  color: #e5ffee;
+}
+
