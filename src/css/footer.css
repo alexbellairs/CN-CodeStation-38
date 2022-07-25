@@ -1,9 +1,10 @@
 .FooterStyled {
   background-color: #0e6029;
+  height: 100px;
+  width: 100%;
   padding: 10px;
   left: 0px;
-  height: 100px;
-  width: auto;
+  bottom: 0px;
 }
 
 .FooterH4Styled {
