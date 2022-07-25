@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+.eventsPage {
+  background: #e5ffee;
+}
+
+.eventCard {
+  box-sizing: border-box;
+  position: absolute;
+  width: 365px;
+  /* height: 365px; */
+  left: 195px;
+  top: 164px;
+  border-bottom: 115px solid rgba(14, 96, 41, 0.9);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 5px 5px 20px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.eventName {
+  font-family: "Inter", sans-serif;
+  /* font-weight: 400; */
+}
