@@ -1,4 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@900&display=swap");
+
+.AppStyles {
+//@import url('https://fonts.googleapis.com/css2?family=Inter:wght@900&display=swap');
 
 .AppStyles{
   left: 0px;
@@ -105,6 +108,37 @@
 
 /* wip */
 
+.AboutPageMainContainer {
+  display: flex;
+  flex-direction: row;
+  margin-top: 2em;
+}
+
+.WhatIsTitle {
+  color: #0e6029;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  text-align: left;
+  font-size: 2em;
+  margin-left: 5px;
+  margin-bottom: 5px;
+}
+
+.whatIsCodestation {
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+  height: 60%;
+}
+
+.TextAndPicture {
+  display: flex;
+  flex-direction: row;
+
+
+/* wip */
+
 .AboutPageMainContainer{
 display: flex;
 flex-direction: row;
@@ -137,6 +171,18 @@ flex-direction: row;
   flex-direction: column;
   text-align: left;
   background: #0e6029;
+  width: 40%;
+}
+
+.aboutP {
+  color: white;
+  font-family: "Inter", sans-serif;
+  font-size: 100%;
+  margin: 5px;
+}
+
+#prettyCodeLightImg {
+  width: 50%;
   width: 25%;
 
 }
@@ -146,6 +192,75 @@ flex-direction: row;
   object-fit: cover;
   border-radius: 0px 30px 30px 0px;
 }
+
+.TeamProfiles {
+  display: flex;
+  flex-direction: column;
+   width: 55%;
+}
+
+.WhoMadeThisTitle {
+  color: #0e6029;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  text-align: right;
+  font-size: 2em;
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+
+/* Profile pic boxes CSS */
+
+.TopThreeProfiles {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.MiddleThreeProfiles {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.BottomThreeProfiles {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.EveryonesProfilesBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background: #0e6029;
+  border-radius: 30px 0px 0px 30px;
+}
+
+.ProfileBoxPadding {
+  padding: 5%;
+}
+
+.ProfileBox {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  width: 150px;
+  height: 150px;
+  background-color: blueviolet;
+  
+}
+
+.ProfilePicture {
+  width: 70px;
+  height: 70px;
+  border-radius: 100%;
+}
+
+.ProfileName {
+}
+
+.ProfileButton {
 
 
 .TeamProfiles{
