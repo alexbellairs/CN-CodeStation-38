@@ -36,7 +36,7 @@ const EventsFeed = () => {
   let info = "{info}";
 
   return (
-    <div>
+    <div className="pageFlex">
       {contests.map((contest, i) => {
         return (
           <div key={i}>
