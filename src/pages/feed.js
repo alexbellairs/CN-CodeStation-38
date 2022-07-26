@@ -1,7 +1,11 @@
+import EventsFeed from "../components/eventsFeed";
+
 const Feed = () => {
   return (
     <div>
-      <div></div>
+      <div>
+        <EventsFeed />
+      </div>
     </div>
   );
 };
