@@ -1,4 +1,4 @@
-/* .Wrapper {
+.Wrapper {
   max-width: 1500px;
   min-width: 330px;
   min-height: 50%;
@@ -6,24 +6,23 @@
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-between;
-  margin-bottom: 3em;
-} */
+}
 
-/* .subTitles {
+.subTitles {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-between;
-  margin-bottom: 2em;
+  margin-bottom: 1em;
   position: absolute;
   font-family: "Inter";
   font-style: normal;
   font-weight: 600;
   color: #0e6029;
   width: 100%;
-} */
+}
 
-/* .whatIsCodestation {
+.whatIsCodestation {
   min-height: 55%;
   width: 44%;
   position: absolute;
@@ -36,9 +35,8 @@
   top: 249px;
   background: #0e6029;
   border-radius: 0px 30px 30px 0px;
-  margin-top: 2em;
-} */
-/* 
+}
+
 .whatIsText {
   display: flex;
   flex-wrap: wrap;
@@ -49,24 +47,13 @@
   justify-content: start;
   position: absolute;
   left: 0;
-} */
+}
 
-
-p {
+.aboutP {
   color: white;
 }
 
-
-
-/* .img {
-
-  justify-content: flex-end;
-  width: 49%;
-  object-fit: cover;
-  border-radius: 0px 30px 30px 0px;
-} */
-
-/* .whatIsImage {
+.whatIsImage {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
@@ -74,11 +61,16 @@ p {
   position: absolute;
   right: 0;
   height: 100%;
+}
 
+#prettyCodeLightImg {
+  justify-content: flex-end;
+  width: 49%;
+  object-fit: cover;
+  border-radius: 0px 30px 30px 0px;
+}
 
-} */
-
-/* .ContentFlexBox {
+.ContentFlexBox {
   min-height: 55%;
   width: 52%;
   position: absolute;
@@ -92,10 +84,9 @@ p {
   top: 249px;
   background: #0e6029;
   border-radius: 30px 0px 0px 30px;
-  margin-top: 2em;
-} */
+}
 
-/* .ContentItemBox {
+.ContentItemBox {
   border: solid 1px black;
   padding: 10px;
   font-size: 20px;
@@ -106,6 +97,4 @@ p {
   flex-direction: row;
   justify-content: space-evenly;
   width: 25%;
-} */
-
-
+}

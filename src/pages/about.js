@@ -18,13 +18,13 @@ const About = () => {
         </div>
         <div className="whatIsCodestation">
           <div className="whatIsText">
-            <p>
+            <p className="aboutP">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
               lacinia accumsan sagittis. Mauris gravida lorem eu nulla gravida
               tempus. Nunc metus sapien, luctus et dui sagittis, cursus lacinia
               arcu. Nulla euismod, nisl eu consectetur consectetur, nisl nunc.
             </p>
-            <p>
+            <p className="aboutP">
               Donec elementum elit tristique mauris consectetur volutpat. Donec
               eget nisl neque. Nullam quis nisl a turpis dignissim dapibus. In
               et metus quam. Phasellus mollis pulvinar purus, at rhoncus dolor
@@ -32,7 +32,7 @@ const About = () => {
             </p>
           </div>
           <div className="whatIsImage">
-            <img src={prettyCodeLight} />
+            <img id="prettyCodeLightImg" src={prettyCodeLight} />
           </div>
         </div>
         <div className="ConentFlexbox">
