@@ -104,5 +104,9 @@ justify-content: center;
     background-color: #438759;
 }
 
+.SignUpButtonAndFields{
+    display: flex;
+    flex-direction: row-reverse;
+}
 
 /* WIP */

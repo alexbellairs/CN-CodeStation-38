@@ -46,54 +46,50 @@ const Login = ({ setter, user }) => {
 
                 <div className="SignUpNowContainer">
                   
-                  <div className="SignUpButtonContainer">
-                    <button className="SignupStyle" type="submit">
-                      {logBool ? "Log In" : "Sign Up Now"}
-                    </button>
-                    </div>
-                  
-                  <div className="SignUpFieldsContainer">
+                <div className="LogInSignUpContainer">
+                  <div className="SignUpButtonAndFields">
+                <div className="SignUpFieldsContainer">
+        {user && <Navigate to="/profile" />}
+        <form className="SignUpButtonAndFields" onSubmit={submitHandler}>
+          <div><input
+            onChange={(e) => setUsername(e.target.value)}
+            placeholder="Username"
+          /></div>
+          {!logBool && (
+            <div><input
+              onChange={(e) => setEmail(e.target.value)}
+              placeholder="Email"
+            /></div>
+          )}
+          <div><input
+            onChange={(e) => setPassword(e.target.value)}
+            placeholder="Password"
+            type="password"
+          /></div>
 
-                  {user && <Navigate to="/profile" />}
-                  <form onSubmit={submitHandler}>
-
-                    {/* username field */}
-                    <div><input
-                      onChange={(e) => setUsername(e.target.value)}
-                      placeholder="Username"
-                    /></div>
-
-                    {!logBool && (
-                      <input
-                        onChange={(e) => setEmail(e.target.value)}
-                        placeholder="Email"
-                      />
-                    )}
-                    <div><input
-                      onChange={(e) => setPassword(e.target.value)}
-                      placeholder="Password"
-                      type="password"
-                    /></div>
-                  </form>
-                  </div>
-                </div>
-          
-
-              <button
-                className="AlreadyHaveStyle"
-                onClick={() => setLogBool(!logBool)}
-              >
-                {logBool ? "Don't " : "Already "} have an account?
-              </button>
-            </div>
             
 
 
+          <button className="SignupStyle" type="submit">
+            {logBool ? "Log In" : "Sign Up Now"}
+          </button>
+        </form>
+        </div>
+        </div>
 
-  </div>
-
-</div>
+        <button
+          className="AlreadyHaveStyle"
+          onClick={() => setLogBool(!logBool)}
+        >
+          {logBool ? "Don't " : "Already "} have an account?
+        </button>
+      </div>
+    </div>
+    </div>
+    </div>
+    </div>
   );
 };
+
 
 export default Login;
