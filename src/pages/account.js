@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import "../css/app.css";
 import "../css/account.css";
 import Quote from "../pageComponents/quote/quote";
-// import harold from "../images/harold.jpg";
+import harold from "../images/harold.jpg";
 
 const Account = ({ setter, user }) => {
   const [username, setUsername] = useState();
@@ -23,12 +23,10 @@ const Account = ({ setter, user }) => {
   };
 
   return (
-    <body>
+  <body>
     <div className="AppStyles">
       <Quote />
-      {/* <img className="imgH" src={harold} /> */}
-      <div className="ContentStyled">
-        <h1 className="Header1Styled">my events</h1>
+    <div className="ContentStyled">
         <form onSubmit={submitHandler}>
           <h2>Update Profile</h2>
           <input
@@ -49,7 +47,6 @@ const Account = ({ setter, user }) => {
         <button onClick={() => deleteFetch(setter())}>
           <Link to="/">Delete Account</Link>
         </button>
-
         <button
           onClick={() => {
             setter();
@@ -57,9 +54,63 @@ const Account = ({ setter, user }) => {
         >
           <Link to="/">Log Out</Link>
         </button>
+    </div>
+    <img className="imgH" src={harold} />
+    <div className="bioUserWrapper">
+      <div className="userContainer">
+      <h3>User</h3>
+      <div className="userBox"></div>
+      </div>
+      <div className="bioContainer">
+      <h3>Bio</h3>
+      <div className="bioBox"></div>
       </div>
     </div>
-    </body>
+    <div className="buttonWrapper">
+    <div className="buttonContainer">
+        <div className="codeBox"></div>
+        <button className="codeButton" ></button>
+        <button className="codeButton" ></button>
+      </div>
+      <div className="buttonContainer">
+        <div className="codeBox"></div>
+        <button className="codeButton" ></button>
+        <button className="codeButton" ></button>
+      </div>
+      <div className="buttonContainer">
+        <div className="codeBox"></div>
+        <button className="codeButton" ></button>
+        <button className="codeButton" ></button>
+      </div>
+      <div className="buttonContainer">
+        <div className="codeBox"></div>
+        <button className="codeButton" ></button>
+        <button className="codeButton" ></button>
+      </div>
+      <div className="buttonContainer">
+        <div className="codeBox"></div>
+        <button className="codeButton" ></button>
+        <button className="codeButton" ></button>
+      </div>
+      <div className="buttonContainer">
+        <div className="codeBox"></div>
+        <button className="codeButton" ></button>
+        <button className="codeButton" ></button>
+      </div>
+      <div className="buttonContainer">
+        <div className="codeBox"></div>
+        <button className="codeButton" ></button>
+        <button className="codeButton" ></button>
+      </div>
+      <div className="buttonContainer">
+        <div className="codeBox"></div>
+        <button className="codeButton" ></button>
+        <button className="codeButton" ></button>
+      </div>
+    </div>
+    </div>
+    <div className="contactInput"></div>
+  </body>
   );
 };
 

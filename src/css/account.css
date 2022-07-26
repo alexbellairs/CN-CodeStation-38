@@ -1,11 +1,81 @@
 body {
     background-color: #E5FFEE;
 }
+
 .imgH {
   display: flex;
-  direction: left;
-  padding: 1px;
-  height: 170px;
-  width: 170px;
-  border: 1px;
+  width: 200px;
+  height: 200.58px;
+  border-radius: 175px 175px 175px 175px;
+  border-color: #0e6029;
+  border-width: 20px;
+  object-fit: cover;
+}
+
+.bioUserWrapper {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.userContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.userBox {
+  box-sizing: border-box;
+  padding: 2px;
+  width: 420px;
+  height: 45px;
+  background: #ffffff;
+  border: 1px solid #0e6029;
+  border-radius: 5px;
+}
+
+.bioContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.bioBox {
+  box-sizing: border-box;
+  width: 420px;
+  height: 350px;
+  background: #ffffff;
+  border: 1px solid #0e6029;
+  border-radius: 5px;
+}
+
+.bioUserWrapper {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.buttonContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.codeBox {
+  box-sizing: border-box;
+  width: 420px;
+  height: 45px;
+  background: #ffffff;
+  border: 1px solid #0e6029;
+  border-radius: 5px;
+}
+
+.codeButton {
+  width: 35.36px;
+  height: 35.36px;
+  color: #FFFFFF;
+  border-radius: 5px;
+  background-color: #438759;
 }
