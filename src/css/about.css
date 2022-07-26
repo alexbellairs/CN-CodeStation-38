@@ -1,5 +1,8 @@
 .styledH1 {
   color: #0e6029;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
 }
 
 .Wrapper {
@@ -45,7 +48,7 @@
   flex-shrink: auto;
   background: #0e6029;
   border-radius: 0px 30px 30px 0px;
-  margin-top: 5em;
+  margin-top: 4em;
 }
 
 .whatIsText {
@@ -62,6 +65,7 @@
 
 .aboutP {
   color: white;
+  font-family: "Inter";
 }
 
 .whatIsImage {
@@ -94,7 +98,7 @@
   flex-shrink: auto;
   background: #0e6029;
   border-radius: 30px 0px 0px 30px;
-  margin-top: 5em;
+  margin-top: 4em;
   justify-content: space-evenly;
 }
 
