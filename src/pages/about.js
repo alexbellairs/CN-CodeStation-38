@@ -9,13 +9,14 @@ const About = () => {
   return (
     <div className="AppStyles">
       <Quote />
-      {/* <h1 className="Header1Styled">About</h1> */}
-
+      <h1 className="styledH1">About</h1>
+      <div className="subTitles">
+        <h2 id="whatIsH2">
+          What is [{`{CODE}`},{`{STATION}`}]?
+        </h2>
+        <h2 id="whoMadeThisH2">Who made this?</h2>
+      </div>
       <div className="Wrapper">
-        <div className="subTitles">
-          <h2>What is [{`{CODE}`},{`{STATION}`}]?</h2>
-          <h2>Who made this?</h2>
-        </div>
         <div className="whatIsCodestation">
           <div className="whatIsText">
             <p className="aboutP">
