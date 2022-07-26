@@ -1,7 +1,6 @@
 // import ContentItem from "../components/contentItem";
 import "../css/app.css";
 import "../css/about.css";
-//import Quote from "../components/quote"; // nOT NEEDED?
 import prettyCodeLight from "../images/prettyCodeLight.jpg";
 import Quote from "../pageComponents/quote/quote";
 import blankFace from "../images/blankFace.png";
