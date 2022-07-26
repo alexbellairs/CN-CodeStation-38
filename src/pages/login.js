@@ -30,6 +30,10 @@ const Login = ({ setter, user }) => {
       <Quote />
 
       <div className="MasterContainer">
+
+      <div className="LeftBlockPadding"></div>
+      <div className="LeftImagePadding"></div>
+
         <div className="LandingPagePictureContainer">
           <img
             className="WomanImg"
@@ -37,6 +41,8 @@ const Login = ({ setter, user }) => {
             alt="womenWithLaptop"
           />
         </div>
+        <div className="RightImagePadding"></div>
+        <div className="RightBlock"></div>
 
         <div className="LogInSignUpContainer">
           <div className="FingerTipsText">
@@ -50,7 +56,7 @@ const Login = ({ setter, user }) => {
                   <form className="SignUpButtonAndFields" onSubmit={submitHandler}
                   >
                     
-
+                  <div className="InputFields">
                     <div>
                       <input
                         onChange={(e) => setUsername(e.target.value)}
@@ -75,6 +81,7 @@ const Login = ({ setter, user }) => {
                         placeholder="Password"
                         type="password"
                       />
+                    </div>
                     </div>
 
 
