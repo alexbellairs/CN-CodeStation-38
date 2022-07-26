@@ -9,59 +9,92 @@
 }
 
 .LoginImgHolder {
-  width: 250px;
-  height: 125px;
-  left: 148px;
-  top: 38px;
-  background: #e5ffee;
-  border-radius: 10px;
-  text-align: center;
+  width: 625.72px;
+  padding-bottom: 4%;
+  padding-top: 4%;
 }
 
 .LoginImg {
-  padding: 2%;
-  height: 110px;
-  width: 222px;
+background: #e5ffee;
+width: 60%;
+padding-top: 20px;
+padding-bottom: 20px;
+padding-left: 40px;
+padding-right: 40px;
+
+border-radius:10px;
 }
 
-.Circle1 {
-  width: 100px;
-  height: 100px;
-  margin-left: 50px;
-  margin-top: 50px;
-  margin-bottom: 5px;
-  border-radius: 50%;
-  border: 10px solid #e5ffee;
+
+/* WIP */
+
+.LoginHeader{
+  display: flex;
+  height: 100%;
+  flex-direction: row;
+  justify-content: center;
 }
 
-.Circle2 {
-  width: 100px;
-  height: 100px;
-  margin-left: 50px;
-  margin-top: 30px;
-  border-radius: 50%;
-  border: 10px solid #e5ffee;
+.LeftBlock{
+  background: #0E6029;
+  width: 2%;
 }
 
-.Circle3 {
-  width: 100px;
-  height: 100px;
-  margin-left: 50px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  border-radius: 50%;
-  border: 10px solid #e5ffee;
+.LeftImagePadding{
+  width:2%;
+
 }
 
-.Circle4 {
-  width: 100px;
-  height: 100px;
-  margin-left: 50px;
-  margin-top: 50px;
-  margin-bottom: 20px;
-  border-radius: 50%;
-  border: 10px solid #e5ffee;
+.LogoBackgroundBlock{
+  background: #0E6029;
+  justify-items: center;
+  width: 625.72px;
+
 }
+
+.RightImagePadding{
+  width:2%;
+}
+
+.RightBlock{
+  background: #0E6029;
+  width: 2%;
+}
+
+.RightContainer{
+  display: flex;
+  flex-direction: column;
+  background: #0E6029;
+  width: 80%;
+
+}
+
+.TopHeaderStrip{
+  height: 33%;
+
+}
+
+.GreenHeaderStrip{
+  background: #438759;
+  height: 33%;
+
+}
+
+.BottomHeaderStrip{
+  height: 33%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
 
 /* THIS IS WHAT ADBELBAR HAD */
 /* .HeaderStyled {

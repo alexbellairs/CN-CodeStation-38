@@ -27,22 +27,18 @@ const Login = ({ setter, user }) => {
     <div className="AppStyles">
       <LoginHeader />
 
-      <Quote />
+
 
       <div className="MasterContainer">
 
-      <div className="LeftBlockPadding"></div>
-      <div className="LeftImagePadding"></div>
+      <div className="LeftMainImagePadding"></div>
 
-        <div className="LandingPagePictureContainer">
           <img
             className="WomanImg"
             src={WomanWithLaptop}
             alt="womenWithLaptop"
           />
-        </div>
-        <div className="RightImagePadding"></div>
-        <div className="RightBlock"></div>
+        <div className="RightMainImagePadding"></div>
 
         <div className="LogInSignUpContainer">
           <div className="FingerTipsText">
