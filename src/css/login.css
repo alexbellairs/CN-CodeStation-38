@@ -10,8 +10,6 @@
 /* Body CSS */
 
 .MasterContainer{
-padding-left: 2%;
-padding-right: 2%;
 padding-bottom: 2%;
 display: flex;
 height: 100%;
@@ -19,6 +17,26 @@ flex-direction: row;
 justify-content: center;
 
 }
+
+.LeftBlockPadding{
+    background: #0E6029;
+    width: 2%;
+}
+
+.LeftImagePadding{
+
+}
+
+.RightImagePadding{
+
+}
+
+.RightBlock{
+
+}
+
+
+
 
 /* Landing Page Image CSS */
 
@@ -111,4 +129,11 @@ justify-content: center;
     
 }
 
+.InputFields{
+    display: flex;
+    flex-direction: column;
+
+}
+
 /* WIP */
+
