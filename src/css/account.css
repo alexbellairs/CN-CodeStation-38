@@ -2,14 +2,26 @@ body {
     background-color: #E5FFEE;
 }
 
+/* .AppStyles {
+
+} */
+
 .imgH {
   display: flex;
-  width: 200px;
-  height: 200.58px;
+  width: 150px;
+  height: 150px;
+  border-style: solid;
   border-radius: 175px 175px 175px 175px;
   border-color: #0e6029;
-  border-width: 20px;
+  border-width: 4px;
   object-fit: cover;
+}
+
+.mainContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 .bioUserWrapper {
@@ -17,12 +29,13 @@ body {
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: flex-start;
+  text-align: left;
 }
 
 .userContainer {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
 }
 
 .userBox {
@@ -37,8 +50,8 @@ body {
 
 .bioContainer {
   display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
+  flex-direction: column;
+  justify-content: flex-start;
 }
 
 .bioBox {
@@ -70,11 +83,12 @@ body {
   background: #ffffff;
   border: 1px solid #0e6029;
   border-radius: 5px;
+  background-color: #565656;
 }
 
 .codeButton {
-  width: 35.36px;
-  height: 35.36px;
+  width: 45.36px;
+  height: 45.36px;
   color: #FFFFFF;
   border-radius: 5px;
   background-color: #438759;
