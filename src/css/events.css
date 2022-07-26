@@ -1,5 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
 
+.pageFlex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
 .container {
   margin: 23px;
   box-sizing: border-box;
@@ -10,6 +17,7 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  justify-content: space-evenly;
   background: url(../images/apiPic1.jpg);
   background-size: 365px auto;
   border-bottom: 115px solid rgba(14, 96, 41, 0.9);
