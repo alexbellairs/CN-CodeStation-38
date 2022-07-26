@@ -1,3 +1,69 @@
+.LoginHeaderStyles {
+  background-color: #0e6029;
+  color: #e5ffee;
+  padding: 10px;
+  width: auto;
+  text-align: left;
+  display: flex;
+  justify-content: right;
+}
+
+.LoginImgHolder {
+  width: 250px;
+  height: 125px;
+  left: 148px;
+  top: 38px;
+  background: #e5ffee;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.LoginImg {
+  padding: 2%;
+  height: 110px;
+  width: 222px;
+}
+
+.Circle1 {
+  width: 100px;
+  height: 100px;
+  margin-left: 50px;
+  margin-top: 50px;
+  margin-bottom: 5px;
+  border-radius: 50%;
+  border: 10px solid #e5ffee;
+}
+
+.Circle2 {
+  width: 100px;
+  height: 100px;
+  margin-left: 50px;
+  margin-top: 30px;
+  border-radius: 50%;
+  border: 10px solid #e5ffee;
+}
+
+.Circle3 {
+  width: 100px;
+  height: 100px;
+  margin-left: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 50%;
+  border: 10px solid #e5ffee;
+}
+
+.Circle4 {
+  width: 100px;
+  height: 100px;
+  margin-left: 50px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  border-radius: 50%;
+  border: 10px solid #e5ffee;
+}
+
+/* THIS IS WHAT ADBELBAR HAD */
 /* .HeaderStyled {
   width: auto;
   background-color: #e5ffee;
