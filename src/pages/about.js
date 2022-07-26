@@ -1,4 +1,4 @@
-import ContentItem from "../components/contentItem";
+// import ContentItem from "../components/contentItem";
 import "../css/app.css";
 import "../css/about.css";
 //import Quote from "../components/quote"; // nOT NEEDED?
@@ -19,17 +19,6 @@ const About = () => {
           <div className="WhatIsTitle">What Is Code Station?</div>
 
           <div className="TextAndPicture">
-
-//    <div className = "AboutPageMainContainer">
-
-//      {/* LEFT SECTION, What is Code Station */}
-
-//        <div className="whatIsCodestation">
-// {/* TITLE */}
-//          <div className="WhatIsTitle">What Is Code Station?</div>
-
-//            <div className="TextAndPicture">
-
             <div className="whatIsTextBox">
               {/* COPY */}
               <p className="aboutP">
@@ -47,7 +36,11 @@ const About = () => {
               </p>
               {/* PHOTO */}
             </div>
-            <img id="prettyCodeLightImg" src={prettyCodeLight} />
+            <img
+              id="prettyCodeLightImg"
+              src={prettyCodeLight}
+              alt="Woman in tech"
+            />
           </div>
         </div>
 
@@ -61,62 +54,62 @@ const About = () => {
               <div className="TopThreeProfiles">
                 {/* PROFILE 1 */}
                 <div className="ProfileBox">
-                  <img className="ProfilePicture" src={blankFace}></img>
+                  <img className="ProfilePicture" src={blankFace} alt="Profile pic"></img>
                   <div className="ProfileName">Kat</div>
-                  <button className="ProfileButton">Link to Git</button>
+                  <a class="ProfileButton" href="https://github.com/Indykatz">Link to Git</a>
                 </div>
                 {/* PROFILE 2 */}
                 <div className="ProfileBox">
-                  <img className="ProfilePicture" src={blankFace}></img>
+                  <img className="ProfilePicture" src={blankFace} alt="Profile pic"></img>
                   <div className="ProfileName">Dom</div>
-                  <button className="ProfileButton">Link to Git</button>
+                  <a class="ProfileButton" href="https://github.com/harb0t">Link to Git</a>
                 </div>
 
                 {/* PROFILE 3 */}
                 <div className="ProfileBox">
-                  <img className="ProfilePicture" src={blankFace}></img>
+                  <img className="ProfilePicture" src={blankFace} alt="Profile pic"></img>
                   <div className="ProfileName">Wren</div>
-                  <button className="ProfileButton">Link to Git</button>
+                  <a class="ProfileButton" href="https://github.com/Wren4Wren">Link to Git</a>
                 </div>
               </div>
 
               <div className="MiddleThreeProfiles">
                 <div className="ProfileBox">
-                  <img className="ProfilePicture" src={blankFace}></img>
+                  <img className="ProfilePicture" src={blankFace} alt="Profile pic"></img>
                   <div className="ProfileName">Alex B</div>
-                  <button className="ProfileButton">Link to Git</button>
+                  <a class="ProfileButton" href="https://github.com/alexbellairs">Link to Git</a>
                 </div>
 
                 <div className="ProfileBox">
-                  <img className="ProfilePicture" src={blankFace}></img>
+                  <img className="ProfilePicture" src={blankFace} alt="Profile pic"></img>
                   <div className="ProfileName">Gaz</div>
-                  <button className="ProfileButton">Link to Git</button>
+                  <a class="ProfileButton" href="https://github.com/garethhough">Link to Git</a>
                 </div>
 
                 <div className="ProfileBox">
-                  <img className="ProfilePicture" src={blankFace}></img>
+                  <img className="ProfilePicture" src={blankFace} alt="Profile pic"></img>
                   <div className="ProfileName">Karl</div>
-                  <button className="ProfileButton">Link to Git</button>
+                  <a class="ProfileButton" href="https://github.com/KarlEvans70">Link to Git</a>
                 </div>
               </div>
 
               <div className="BottomThreeProfiles">
                 <div className="ProfileBox">
-                  <img className="ProfilePicture" src={blankFace}></img>
+                  <img className="ProfilePicture" src={blankFace} alt="Profile pic"></img>
                   <div className="ProfileName">James</div>
-                  <button className="ProfileButton">Link to Git</button>
+                  <a class="ProfileButton" href="https://github.com/jamlindsay97">Link to Git</a>
                 </div>
 
                 <div className="ProfileBox">
-                  <img className="ProfilePicture" src={blankFace}></img>
+                  <img className="ProfilePicture" src={blankFace} alt="Profile pic"></img>
                   <div className="ProfileName">Abdelbar</div>
-                  <button className="ProfileButton">Link to Git</button>
+                  <a class="ProfileButton" href="https://github.com/Javabar">Link to Git</a>
                 </div>
 
                 <div className="ProfileBox">
-                  <img className="ProfilePicture" src={blankFace}></img>
+                  <img className="ProfilePicture" src={blankFace} alt="Profile pic"></img>
                   <div className="ProfileName">John</div>
-                  <button className="ProfileButton">Link to Git</button>
+                  <a class="ProfileButton" href="https://github.com/jbridges373">Link to Git</a>
                 </div>
               </div>
             </div>
@@ -125,153 +118,7 @@ const About = () => {
           {/* <ContentItem /> */}
         </div>
       </div>
-                tempus. Nunc metus sapien, luctus et dui sagittis, cursus lacinia
-                arcu. Nulla euismod, nisl eu consectetur consectetur, nisl nunc.
-              </p>
-              <p className="aboutP">
-                Donec elementum elit tristique mauris consectetur volutpat. Donec
-                eget nisl neque. Nullam quis nisl a turpis dignissim dapibus. In
-                et metus quam. Phasellus mollis pulvinar purus, at rhoncus dolor
-                congue nec.
-              </p>
-              {/* PHOTO */}
-            </div>
-              <img id="prettyCodeLightImg" src={prettyCodeLight} />
-            </div>
-          </div>
-
-
-
-{/* RIGHT SECTION */}
-
-          <div className="TeamProfiles">
-
-            <div className="WhoMadeThisTitle">Who made this?</div>
-
-
-              <div className="EveryonesProfilesBox">
-
-                <div className="ProfileBoxPadding">
-
-                  
-              <div className="TopThreeProfiles">
-{/* PROFILE 1 */}
-            <div className="ProfileBox">
-                <div className="ProfilePicture">
-                </div>
-                  <div className="ProfileName">       
-                </div>
-                    <div className="ProfileButton">
-                    </div>
-                </div>
-{/* PROFILE 2 */}
-<div className="ProfileBox">
-                <div className="ProfilePicture">
-                </div>
-                  <div className="ProfileName">       
-                </div>
-                    <div className="ProfileButton">
-                    </div>
-                </div>
-
-{/* PROFILE 3 */}
-<div className="ProfileBox">
-                <div className="ProfilePicture">
-                </div>
-                  <div className="ProfileName">       
-                </div>
-                    <div className="ProfileButton">
-                    </div>
-                </div>
-
-
-            </div>
-
-
-
-
-            <div className="MiddleThreeProfiles">
-
-            <div className="ProfileBox">
-                <div className="ProfilePicture">
-                </div>
-                  <div className="ProfileName">       
-                </div>
-                    <div className="ProfileButton">
-                    </div>
-                </div>
-
-                <div className="ProfileBox">
-                <div className="ProfilePicture">
-                </div>
-                  <div className="ProfileName">       
-                </div>
-                    <div className="ProfileButton">
-                    </div>
-                </div>
-
-                <div className="ProfileBox">
-                <div className="ProfilePicture">
-                </div>
-                  <div className="ProfileName">       
-                </div>
-                    <div className="ProfileButton">
-                    </div>
-                </div>
-
-
-
-
-            </div>
-              
-
-
-            <div className="BottomThreeProfiles">
-
-
-
-
-            <div className="ProfileBox">
-                <div className="ProfilePicture">
-                </div>
-                  <div className="ProfileName">       
-                </div>
-                    <div className="ProfileButton">
-                    </div>
-                </div>
-
-                <div className="ProfileBox">
-                <div className="ProfilePicture">
-                </div>
-                  <div className="ProfileName">       
-                </div>
-                    <div className="ProfileButton">
-                    </div>
-                </div>
-
-                <div className="ProfileBox">
-                <div className="ProfilePicture">
-                </div>
-                  <div className="ProfileName">       
-                </div>
-                    <div className="ProfileButton">
-                    </div>
-                </div>
-
-            </div></div>
-
-          
-
-            </div>
-
-
-
-
-          {/* <ContentItem /> */}
-          </div>
     </div>
-  </div>
-
   );
 };
 
