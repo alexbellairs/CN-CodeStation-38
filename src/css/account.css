@@ -12,16 +12,17 @@ body {
   object-fit: cover;
 }
 
-.accountWrapper {
+.bioUserWrapper {
   display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
-  flex-direction: row;
+  justify-content: flex-start;
 }
 
 .userContainer {
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: center;
 }
 
 .userBox {
@@ -36,8 +37,8 @@ body {
 
 .bioContainer {
   display: flex;
-  flex-direction: column;
-  justify-content: end;
+  flex-direction: row;
+  justify-content: flex-end;
 }
 
 .bioBox {
@@ -49,10 +50,17 @@ body {
   border-radius: 5px;
 }
 
-.buttonContainer {
+.bioUserWrapper {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.buttonContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
 }
 
 .codeBox {
@@ -62,9 +70,6 @@ body {
   background: #ffffff;
   border: 1px solid #0e6029;
   border-radius: 5px;
-  display: inline;
-  flex-direction: row;
-  justify-content: space-around;
 }
 
 .codeButton {
