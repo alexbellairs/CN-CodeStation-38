@@ -9,11 +9,11 @@ const About = () => {
   return (
     <div className="AppStyles">
       <Quote />
-      <h1 className="Header1Styled">About</h1>
+      {/* <h1 className="Header1Styled">About</h1> */}
 
       <div className="Wrapper">
         <div className="subTitles">
-          <h2>What is Code Station?</h2>
+          <h2>What is [{`{CODE}`},{`{STATION}`}]?</h2>
           <h2>Who made this?</h2>
         </div>
         <div className="whatIsCodestation">
