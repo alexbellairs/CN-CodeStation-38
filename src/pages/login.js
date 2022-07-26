@@ -45,13 +45,12 @@ const Login = ({ setter, user }) => {
 
           <div className="SignUpNowContainer">
             <div className="LogInSignUpContainer">
-              <div className="SignUpButtonAndFields">
-                <div className="SignUpFieldsContainer">
+
                   {user && <Navigate to="/about" />}
-                  <form
-                    className="SignUpButtonAndFields"
-                    onSubmit={submitHandler}
+                  <form className="SignUpButtonAndFields" onSubmit={submitHandler}
                   >
+                    
+
                     <div>
                       <input
                         onChange={(e) => setUsername(e.target.value)}
@@ -59,12 +58,16 @@ const Login = ({ setter, user }) => {
                       />
                     </div>
                     {!logBool && (
+
+
                       <div>
                         <input
                           onChange={(e) => setEmail(e.target.value)}
                           placeholder="Email"
                         />
                       </div>
+
+
                     )}
                     <div>
                       <input
@@ -74,11 +77,14 @@ const Login = ({ setter, user }) => {
                       />
                     </div>
 
+
                     <button className="SignupStyle" type="submit">
                       {logBool ? "Log In" : "Sign Up Now"}
                     </button>
                   </form>
                 </div>
+
+
               </div>
 
               <button
@@ -90,8 +96,7 @@ const Login = ({ setter, user }) => {
             </div>
           </div>
         </div>
-      </div>
-    </div>
+
   );
 };
 

@@ -1,48 +1,56 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
 
 .contactPage {
+  background-color: #e5ffee;
+}
+
+.MainContainer{
   display: flex;
   flex-direction: row;
-  background-color: #e5ffee;
 }
 
 /* photo styling */
 .contactImage {
-  position: absolute;
   left: 0px;
   width: 900px;
   height: 700px;
+  object-fit: contain;
 }
 
 /* message section */
 .contactInput {
   display: flex;
-  flex-wrap: wrap;
   flex-direction: column;
-  object-fit: cover;
+}
+
+.ContactFields{
+  display: flex;
+  flex-direction: row;
 }
 
 /* green colour not working for some reason */
-.contactInput.h1 {
+.ContactFormTitle {
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 32px;
   line-height: 40px;
-  /* color: #0e6029; */
+  color: #0e6029;
 }
 
-.contactInput.p {
+
+/* message boxes styling */
+
+.ContactFormText{
   font-family: "Inter";
   font-style: normal;
   font-weight: 600;
   font-size: 14px;
   line-height: 18px;
   text-align: right;
-  /* color: #0e6029; */
+  color: #0e6029;
 }
 
-/* message boxes styling */
 .smallBox {
   box-sizing: border-box;
   width: 320px;
@@ -63,12 +71,4 @@
 
 /* wip */
 
-.textTest {
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 600;
-  font-size: 14px;
-  line-height: 18px;
-  text-align: right;
-  color: #0e6029;
-}
+

@@ -85,8 +85,9 @@ justify-content: center;
 
 }
 
-.SignUpFieldsContainer{
+.FieldsContainer{
     display: flex;
+    flex-direction: column;
 }
 
 .AlreadyHaveStyle{
@@ -107,6 +108,7 @@ justify-content: center;
 .SignUpButtonAndFields{
     display: flex;
     flex-direction: row-reverse;
+    
 }
 
 /* WIP */
