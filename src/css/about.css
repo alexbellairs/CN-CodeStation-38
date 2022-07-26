@@ -1,11 +1,19 @@
-.styledH1 {
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@900&display=swap');
+
+.AppStyles{
+  left: 0px;
+  top: 0px;
+}
+
+
+/* .styledH1 {
   color: #0e6029;
   font-family: "Inter";
   font-style: normal;
   font-weight: 600;
-}
+} */
 
-.Wrapper {
+/* .Wrapper {
   max-width: 1500px;
   min-width: 330px;
   min-height: 65%;
@@ -13,9 +21,9 @@
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-between;
-}
+} */
 
-.subTitles {
+/* .subTitles {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
@@ -26,32 +34,17 @@
   font-weight: 600;
   color: #0e6029;
   width: 100%;
-}
+} */
 
-#whatIsH2 {
+/* #whatIsH2 {
   margin-left: 10px;
-}
+} */
 
-#whoMadeThisH2 {
+/* #whoMadeThisH2 {
   margin-left: 10px;
-}
+} */
 
-.whatIsCodestation {
-  min-height: 65%;
-  width: 44%;
-  position: absolute;
-  left: 0;
-  display: flex;
-  flex-wrap: wrap;
-  flex-shrink: auto;
-  flex-direction: row;
-  flex-shrink: auto;
-  background: #0e6029;
-  border-radius: 0px 30px 30px 0px;
-  margin-top: 4em;
-}
-
-.whatIsText {
+/* .whatIsText {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
@@ -61,14 +54,15 @@
   justify-content: start;
   position: absolute;
   left: 0;
-}
+} */
 
-.aboutP {
+/* .aboutP {
   color: white;
   font-family: "Inter";
-}
+  font-size: 100%;
+} */
 
-.whatIsImage {
+/* .whatIsImage {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
@@ -76,16 +70,10 @@
   position: absolute;
   right: 0;
   height: 100%;
-}
+} */
 
-#prettyCodeLightImg {
-  justify-content: flex-end;
-  width: 49%;
-  object-fit: cover;
-  border-radius: 0px 30px 30px 0px;
-}
 
-.ContentFlexBox {
+/* .ContentFlexBox {
   min-height: 65%;
   width: 54%;
   position: absolute;
@@ -100,9 +88,9 @@
   border-radius: 30px 0px 0px 30px;
   margin-top: 4em;
   justify-content: space-evenly;
-}
+} */
 
-.ContentItemBox {
+/* .ContentItemBox {
   border: solid 1px black;
   padding: 10px;
   font-size: 20px;
@@ -112,4 +100,117 @@
   flex-direction: row;
   justify-content: space-evenly;
   width: 25%;
+} */
+
+
+/* wip */
+
+.AboutPageMainContainer{
+display: flex;
+flex-direction: row;
+}
+
+.WhatIsTitle{
+  color: #0e6029;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  text-align: left;
+}
+
+
+.whatIsCodestation {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+
+}
+
+.TextAndPicture{
+  display: flex;
+  flex-direction: row;
+
+}
+
+.whatIsTextBox {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  background: #0e6029;
+  width: 25%;
+
+}
+
+#prettyCodeLightImg {
+  width: 60%;
+  object-fit: cover;
+  border-radius: 0px 30px 30px 0px;
+}
+
+
+.TeamProfiles{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+
+.WhoMadeThisTitle{
+  color: #0e6029;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  text-align: right;
+
+}
+
+
+
+/* Profile pic boxes CSS */
+
+.TopThreeProfiles{
+  display: flex;
+}
+
+.MiddleThreeProfiles{
+  display: flex;
+}
+.BottomThreeProfiles{
+  display: flex;
+}
+
+.EveryonesProfilesBox{
+  background: #0e6029;
+  border-radius: 30px 0px 0px 30px;
+
+}
+
+.ProfileBoxPadding{
+  padding: 5%;
+}
+
+.ProfileBox{
+  width: 50px;
+  height: 50px;
+  background-color: blueviolet;
+}
+
+
+.ProfilePicture{
+  width: 30px;
+  height: 30px;
+  background-color: rgb(217, 255, 0);
+
+}
+
+
+
+.ProfileName{
+
+}
+
+
+
+.ProfileButton{
+
 }
