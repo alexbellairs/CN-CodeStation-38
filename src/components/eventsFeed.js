@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { fetchContest } from "../utlis";
+import "../css/events.css";
 
 const EventsFeed = () => {
   // useState
@@ -31,23 +32,38 @@ const EventsFeed = () => {
     setUserEvents(storeUserEvent);
     handleRemove(index);
   };
+  let addBtn = "{add}";
+  let info = "{info}";
 
   return (
     <div>
       {contests.map((contest, i) => {
         return (
           <div key={i}>
-            <h3>{contest.name}</h3>
-            <a href={contest.url} rel="noreferrer noopener" target="_blank">
-              {contest.url}
-            </a>
-            <ul>
-              <li>Start Time: {contest.start_time}</li>
-              <li>End Time: {contest.end_time}</li>
-              <li>Location: {contest.site}</li>
-              <li>Status: {contest.status}</li>
-            </ul>
-            <button onClick={() => handleInterested(i)}>Interested</button>
+            <div className="container">
+              <div className="innerContainer">
+                <h3 className="eventName">{contest.name}</h3>
+                <ul className="info">
+                  <ul>Start Time: {contest.start_time}</ul>
+                  <ul>End Time: {contest.end_time}</ul>
+                  <ul>Location: {contest.site}</ul>
+                  <ul>Status: {contest.status}</ul>
+                </ul>
+              </div>
+              <div className="btns">
+                <a
+                  className="btnLt"
+                  href={contest.url}
+                  rel="noreferrer noopener"
+                  target="_blank"
+                >
+                  {`${info}`}
+                </a>
+                <button className="btnRt" onClick={() => handleInterested(i)}>
+                  {`${addBtn}`}
+                </button>
+              </div>
+            </div>
           </div>
         );
       })}
