@@ -3,8 +3,6 @@
 .contactPage {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
-  min-height: 700px;
   background-color: #e5ffee;
 }
 
@@ -20,10 +18,8 @@
 .contactInput {
   display: flex;
   flex-wrap: wrap;
-  flex-direction: row;
-  align-items: space-between;
-  position:absolute;
-  left: 900px;
+  flex-direction: column;
+  object-fit: cover;
 }
 
 /* green colour not working for some reason */
@@ -47,7 +43,7 @@
 }
 
 /* message boxes styling */
-.nameBox {
+.smallBox {
   box-sizing: border-box;
   width: 320px;
   height: 45px;
@@ -56,20 +52,23 @@
   border-radius: 5px;
 }
 
-.emailBox {
-  box-sizing: border-box;
-  width: 320px;
-  height: 45px;
-  background: #ffffff;
-  border: 1px solid #0e6029;
-  border-radius: 5px;
-}
-
-.messageBox {
+.bigBox {
   box-sizing: border-box;
   width: 320px;
   height: 320px;
   background: #ffffff;
   border: 1px solid #0e6029;
   border-radius: 5px;
+}
+
+/* wip */
+
+.textTest {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: right;
+  color: #0e6029;
 }
