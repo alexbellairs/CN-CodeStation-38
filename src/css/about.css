@@ -43,10 +43,15 @@
   width: 40%;
 }
 
+.aboutH3 {
+  color: white;
+  margin-left: 5px;
+}
+
 .aboutP {
   color: white;
   font-family: "Inter", sans-serif;
-  font-size: 100%;
+  font-size: 95%;
   margin: 5px;
 }
 
