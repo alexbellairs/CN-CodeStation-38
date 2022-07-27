@@ -1,11 +1,11 @@
-import EventsFeed from "../components/eventsFeed";
+import EventFeed from "../components/eventFeed";
 
 const Feed = () => {
   return (
     <body>
       <div>
         <div>
-          <EventsFeed />
+          <EventFeed />
         </div>
       </div>
     </body>
