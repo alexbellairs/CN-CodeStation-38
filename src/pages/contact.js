@@ -40,6 +40,10 @@ const Contact = () => {
             </div>
             <div className="bigBox"></div>
           </div>
+
+          <div>
+            <button className="submitBtn">Submit</button>
+          </div>
         </div>
       </div>
     </div>
