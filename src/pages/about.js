@@ -32,17 +32,10 @@ const About = () => {
             <div className="whatIsTextBox">
               {/* COPY */}
               <p className="aboutP">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-                lacinia accumsan sagittis. Mauris gravida lorem eu nulla gravida
-                tempus. Nunc metus sapien, luctus et dui sagittis, cursus
-                lacinia arcu. Nulla euismod, nisl eu consectetur consectetur,
-                nisl nunc.
+              From hackathons to code contests – get connected now!  Code Station is a networking portal to connect you to the latest coding opportunities, as well as bringing you closer to the worldwide coding community. With the Code Station feed you can browse through thousands of online and in person events then log your interest so you never miss out! 
               </p>
               <p className="aboutP">
-                Donec elementum elit tristique mauris consectetur volutpat.
-                Donec eget nisl neque. Nullam quis nisl a turpis dignissim
-                dapibus. In et metus quam. Phasellus mollis pulvinar purus, at
-                rhoncus dolor congue nec.
+              Powered with the wealth of data offered by Kontests API, you can browse through a huge range of coding events to pick and choose - whatever takes your interest! Events range from, Java or Python contests, C Sharp and C++ challenges, to Swift or Lua networking, all is on offer from grassroots coding collectives to multinational companies.
               </p>
               {/* PHOTO */}
             </div>
