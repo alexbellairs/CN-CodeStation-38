@@ -31,6 +31,13 @@ const About = () => {
           <div className="TextAndPicture">
             <div className="whatIsTextBox">
               {/* COPY */}
+              <h3 className="aboutH3">From hackathons to code contests - get connected now!</h3>
+              <p className="aboutP"> 
+              Code Station is a networking portal to connect you to the latest coding opportunities as 
+              well as bringing you closer  to the worldwide coding community. With the Code Station feed 
+              you can browse through thousands of online and in person events then log your interest so 
+              you never miss out!
+              </p>
               <p className="aboutP">
               From hackathons to code contests – get connected now!  Code Station is a networking portal to connect you to the latest coding opportunities, as well as bringing you closer to the worldwide coding community. With the Code Station feed you can browse through thousands of online and in person events then log your interest so you never miss out! 
               </p>
