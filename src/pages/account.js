@@ -27,27 +27,27 @@ const Account = ({ setter, user }) => {
     <div className="AppStyles">
       <Quote />
     <div className="ContentStyled">
-        <form onSubmit={submitHandler}>
+        <form className="banner" onSubmit={submitHandler}>
           <h2>Update Profile</h2>
-          <input
+          <input className="inputs"
             onChange={(e) => setUsername(e.target.value)}
             placeholder="Username"
           />
-          <input
+          <input className="inputs"
             onChange={(e) => setEmail(e.target.value)}
             placeholder="Email"
           />
-          <input
+          <input className="inputs"
             onChange={(e) => setPassword(e.target.value)}
             placeholder="Password"
             type="password"
           />
-          <button type="submit">Update</button>
+          <button className="update" type="submit">Update</button>
         </form>
-        <button onClick={() => deleteFetch(setter())}>
+        <button className="delete" onClick={() => deleteFetch(setter())}>
           <Link to="/">Delete Account</Link>
         </button>
-        <button
+        <button className="logOut"
           onClick={() => {
             setter();
           }}
@@ -55,67 +55,74 @@ const Account = ({ setter, user }) => {
           <Link to="/">Log Out</Link>
         </button>
     </div>
-    <img className="imgH" src={harold} />
+    <img className="imgH" src={harold} alt="Hide the pain Harold" />
     <div className="mainContainer">
     <div className="bioUserWrapper">
       <div className="userContainer">
       <h3>User</h3>
-      <div className="userBox"></div>
+      <div className="userBox"> HTP HAROLD</div>
       </div>
       <div className="bioContainer">
       <h3>Bio</h3>
-      <div className="bioBox"></div>
+      <div className="bioBox"> ADSHDFIGHGKSNGDSKFHWIGHRF </div>
       </div>
       <br></br>
     </div>
     <div className="buttonWrapper">
-    <div className="buttonContainer">
-        <div className="codeBox"></div>
-        <button className="codeButton" ></button>
-        <button className="codeButton" ></button>
+      <div className="buttonContainer">
+        <div className="codeBox"> Alex's Android emporium</div>
+        <button className="codeButton" > i </button>
+        <button className="codeButton" > X </button>
       </div>
       <br></br>
       <div className="buttonContainer">
-        <div className="codeBox"></div>
-        <button className="codeButton" ></button>
-        <button className="codeButton" ></button>
+        <div className="codeBox">Gaz's  </div>
+        <button className="codeButton" > i </button>
+        <button className="codeButton" > X </button>
       </div>
       <br></br>
       <div className="buttonContainer">
-        <div className="codeBox"></div>
-        <button className="codeButton" ></button>
-        <button className="codeButton" ></button>
+        <div className="codeBox"> James's </div>
+        <button className="codeButton" > i </button>
+        <button className="codeButton" > X </button>
       </div>
       <br></br>
       <div className="buttonContainer">
-        <div className="codeBox"></div>
-        <button className="codeButton" ></button>
-        <button className="codeButton" ></button>
+        <div className="codeBox"> Kat's concatenating course</div>
+        <button className="codeButton" > i </button>
+        <button className="codeButton" > X </button>
       </div>
       <br></br>
       <div className="buttonContainer">
-        <div className="codeBox"></div>
-        <button className="codeButton" ></button>
-        <button className="codeButton" ></button>
+        <div className="codeBox"> John's</div>
+        <button className="codeButton" > i </button>
+        <button className="codeButton" > X </button>
       </div>
       <br></br>
       <div className="buttonContainer">
-        <div className="codeBox"></div>
-        <button className="codeButton" ></button>
-        <button className="codeButton" ></button>
+        <div className="codeBox"> Abdelbar's autonomous </div>
+        <button className="codeButton" > i </button>
+        <button className="codeButton" > X  </button>
       </div>
       <br></br>
       <div className="buttonContainer">
-        <div className="codeBox"></div>
-        <button className="codeButton" ></button>
-        <button className="codeButton" ></button>
+        <div className="codeBox">Karl's </div>
+        <button className="codeButton" > i </button>
+        <button className="codeButton" > X  </button>
       </div>
       <br></br>
       <div className="buttonContainer">
-        <div className="codeBox"></div>
-        <button className="codeButton" ></button>
-        <button className="codeButton" ></button>
+        <div className="codeBox"> Renee's </div>
+        <button className="codeButton" > i </button>
+        <button className="codeButton" > X </button>
       </div>
+      <br></br>
+      <div className="buttonContainer">
+        <div className="codeBox"> Dom's DOM domination</div>
+        <button className="codeButton" > i </button>
+        <button className="codeButton" > X </button>
+      </div>
+      <br></br>
     </div>
     </div>
     </div>

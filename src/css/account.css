@@ -1,5 +1,3 @@
-MONGO_URI = mongodb+srv://karlevans70:<password>@cluster0.d4p6e.mongodb.net/?retryWrites=true&w=majority
-
 body {
     background-color: #E5FFEE;
 }
@@ -48,6 +46,9 @@ body {
   background: #ffffff;
   border: 1px solid #0e6029;
   border-radius: 5px;
+  text-align: center;
+  font-weight: normal;
+  font-size: x-large;
 }
 
 .bioContainer {
@@ -63,6 +64,9 @@ body {
   background: #ffffff;
   border: 1px solid #0e6029;
   border-radius: 5px;
+  text-align: center;
+  font-weight: normal;
+  font-size: x-large;
 }
 
 .bioUserWrapper {
@@ -86,6 +90,8 @@ body {
   border: 1px solid #0e6029;
   border-radius: 5px;
   background-color: #565656;
+  text-align: center;
+  font-size: x-large;
 }
 
 .codeButton {
@@ -94,4 +100,31 @@ body {
   color: #FFFFFF;
   border-radius: 5px;
   background-color: #438759;
+  font-size: x-large;
+  font-weight: 900;
+}
+
+.inputs {
+  background-color: #FFFFFF;
+  font-size: large;
+}
+
+.logOut {
+  background-color:#E5FFEE;
+  font-size: large;
+}
+
+.delete {
+  background-color: #EFffEE;
+  font-size: large;
+}
+
+.update {
+  background-color: #438759;
+  font-size: large;
+}
+.banner {
+  background-color: #438759;
+  font-size: xx-large;
+  text-align: center;
 }
