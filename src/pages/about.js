@@ -39,12 +39,10 @@ const About = () => {
               you never miss out!
               </p>
               <p className="aboutP">
-              Powered with the wealth of data offered by Kontests API, you can browse through a huge range 
-              of coding events to pick and choose - whatever takes your interest!
+              From hackathons to code contests – get connected now!  Code Station is a networking portal to connect you to the latest coding opportunities, as well as bringing you closer to the worldwide coding community. With the Code Station feed you can browse through thousands of online and in person events then log your interest so you never miss out! 
               </p>
               <p className="aboutP">
-              Events range from java or python contests, C Sharp and C++ challenges, to Swift or Lua networking, 
-              all is on offer from worldwide reaching companies and grassroots coding collectives.
+              Powered with the wealth of data offered by Kontests API, you can browse through a huge range of coding events to pick and choose - whatever takes your interest! Events range from, Java or Python contests, C Sharp and C++ challenges, to Swift or Lua networking, all is on offer from grassroots coding collectives to multinational companies.
               </p>
               {/* PHOTO */}
             </div>
