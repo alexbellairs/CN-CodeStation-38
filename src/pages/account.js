@@ -56,6 +56,7 @@ const Account = ({ setter, user }) => {
         </button>
     </div>
     <img className="imgH" src={harold} />
+    <div className="mainContainer">
     <div className="bioUserWrapper">
       <div className="userContainer">
       <h3>User</h3>
@@ -65,6 +66,7 @@ const Account = ({ setter, user }) => {
       <h3>Bio</h3>
       <div className="bioBox"></div>
       </div>
+      <br></br>
     </div>
     <div className="buttonWrapper">
     <div className="buttonContainer">
@@ -72,41 +74,49 @@ const Account = ({ setter, user }) => {
         <button className="codeButton" ></button>
         <button className="codeButton" ></button>
       </div>
+      <br></br>
       <div className="buttonContainer">
         <div className="codeBox"></div>
         <button className="codeButton" ></button>
         <button className="codeButton" ></button>
       </div>
+      <br></br>
       <div className="buttonContainer">
         <div className="codeBox"></div>
         <button className="codeButton" ></button>
         <button className="codeButton" ></button>
       </div>
+      <br></br>
       <div className="buttonContainer">
         <div className="codeBox"></div>
         <button className="codeButton" ></button>
         <button className="codeButton" ></button>
       </div>
+      <br></br>
       <div className="buttonContainer">
         <div className="codeBox"></div>
         <button className="codeButton" ></button>
         <button className="codeButton" ></button>
       </div>
+      <br></br>
       <div className="buttonContainer">
         <div className="codeBox"></div>
         <button className="codeButton" ></button>
         <button className="codeButton" ></button>
       </div>
+      <br></br>
       <div className="buttonContainer">
         <div className="codeBox"></div>
         <button className="codeButton" ></button>
         <button className="codeButton" ></button>
       </div>
+      <br></br>
       <div className="buttonContainer">
         <div className="codeBox"></div>
         <button className="codeButton" ></button>
         <button className="codeButton" ></button>
       </div>
+    </div>
     </div>
     </div>
     <div className="contactInput"></div>
