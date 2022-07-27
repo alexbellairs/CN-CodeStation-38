@@ -1,9 +1,20 @@
 // import ContentItem from "../components/contentItem";
 import "../css/app.css";
 import "../css/about.css";
-import prettyCodeLight from "../images/prettyCodeLight.jpg";
 import Quote from "../pageComponents/quote/quote";
-import blankFace from "../images/blankFace.png";
+
+// images
+import prettyCodeLight from "../images/prettyCodeLight.jpg";
+import Dom from "../images/Dom.png";
+import John from "../images/John.png";
+import Abdelbar from "../images/Abdelbar.png";
+import Kat from "../images/Kat.png";
+import Wren from "../images/Wren.png";
+import Gaz from "../images/Gaz.png";
+import Karl from "../images/Karl.png";
+import Alex from "../images/Alex.png";
+import James from "../images/James.png";
+
 
 const About = () => {
   return (
@@ -53,20 +64,20 @@ const About = () => {
               <div className="TopThreeProfiles">
                 {/* PROFILE 1 */}
                 <div className="ProfileBox">
-                  <img className="ProfilePicture" src={blankFace} alt="Profile pic"></img>
+                  <img className="ProfilePicture" src={Kat} alt="Profile pic"></img>
                   <div className="ProfileName">Kat</div>
                   <a class="ProfileButton" href="https://github.com/Indykatz">Link to Git</a>
                 </div>
                 {/* PROFILE 2 */}
                 <div className="ProfileBox">
-                  <img className="ProfilePicture" src={blankFace} alt="Profile pic"></img>
+                  <img className="ProfilePicture" src={Dom} alt="Profile pic"></img>
                   <div className="ProfileName">Dom</div>
                   <a class="ProfileButton" href="https://github.com/harb0t">Link to Git</a>
                 </div>
 
                 {/* PROFILE 3 */}
                 <div className="ProfileBox">
-                  <img className="ProfilePicture" src={blankFace} alt="Profile pic"></img>
+                  <img className="ProfilePicture" src={Wren} alt="Profile pic"></img>
                   <div className="ProfileName">Wren</div>
                   <a class="ProfileButton" href="https://github.com/Wren4Wren">Link to Git</a>
                 </div>
@@ -74,19 +85,19 @@ const About = () => {
 
               <div className="MiddleThreeProfiles">
                 <div className="ProfileBox">
-                  <img className="ProfilePicture" src={blankFace} alt="Profile pic"></img>
+                  <img className="ProfilePicture" src={Alex} alt="Profile pic"></img>
                   <div className="ProfileName">Alex B</div>
                   <a class="ProfileButton" href="https://github.com/alexbellairs">Link to Git</a>
                 </div>
 
                 <div className="ProfileBox">
-                  <img className="ProfilePicture" src={blankFace} alt="Profile pic"></img>
+                  <img className="ProfilePicture" src={Gaz} alt="Profile pic"></img>
                   <div className="ProfileName">Gaz</div>
                   <a class="ProfileButton" href="https://github.com/garethhough">Link to Git</a>
                 </div>
 
                 <div className="ProfileBox">
-                  <img className="ProfilePicture" src={blankFace} alt="Profile pic"></img>
+                  <img className="ProfilePicture" src={Karl} alt="Profile pic"></img>
                   <div className="ProfileName">Karl</div>
                   <a class="ProfileButton" href="https://github.com/KarlEvans70">Link to Git</a>
                 </div>
@@ -94,19 +105,19 @@ const About = () => {
 
               <div className="BottomThreeProfiles">
                 <div className="ProfileBox">
-                  <img className="ProfilePicture" src={blankFace} alt="Profile pic"></img>
+                  <img className="ProfilePicture" src={James} alt="Profile pic"></img>
                   <div className="ProfileName">James</div>
                   <a class="ProfileButton" href="https://github.com/jamlindsay97">Link to Git</a>
                 </div>
 
                 <div className="ProfileBox">
-                  <img className="ProfilePicture" src={blankFace} alt="Profile pic"></img>
+                  <img className="ProfilePicture" src={Abdelbar} alt="Profile pic"></img>
                   <div className="ProfileName">Abdelbar</div>
                   <a class="ProfileButton" href="https://github.com/Javabar">Link to Git</a>
                 </div>
 
                 <div className="ProfileBox">
-                  <img className="ProfilePicture" src={blankFace} alt="Profile pic"></img>
+                  <img className="ProfilePicture" src={John} alt="Profile pic"></img>
                   <div className="ProfileName">John</div>
                   <a class="ProfileButton" href="https://github.com/jbridges373">Link to Git</a>
                 </div>
