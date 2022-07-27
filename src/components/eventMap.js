@@ -18,10 +18,10 @@ const EventMap = ({ name, url, site, status }) => {
             <button
               className="btns"
               onClick={() => setGoingBool(!goingBool)}
-              style={
-                ({ backgroundColor: goingBool ? "#0e6029" : "#e5ffee" },
-                { color: goingBool ? "#e5ffee" : "#0e6029" })
-              }
+              style={{
+                backgroundColor: goingBool ? "#0e6029" : "#e5ffee",
+                color: goingBool ? "#e5ffee" : "#0e6029",
+              }}
             >
               {goingBool ? "Going" : "Not Going"}
             </button>
