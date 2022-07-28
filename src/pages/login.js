@@ -3,7 +3,6 @@ import { Navigate } from "react-router-dom";
 import { signUp, tokenFetch } from "../utlis";
 import "../css/app.css";
 import "../css/login.css";
-import Quote from "../pageComponents/quote/quote";
 import LoginHeader from "../pageComponents/loginHeader1/loginHeader";
 import WomanWithLaptop from "../images/womanWithLaptop.jpg";
 
