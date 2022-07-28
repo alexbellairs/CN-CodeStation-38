@@ -82,7 +82,7 @@ const Account = ({ setter, user }) => {
       </div>
       <br></br>
       <div className="buttonContainer">
-        <div className="codeBox"> James's </div>
+        <div className="codeBox"> James's Java Jungle</div>
         <button className="codeButton" > i </button>
         <button className="codeButton" > X </button>
       </div>
@@ -94,13 +94,13 @@ const Account = ({ setter, user }) => {
       </div>
       <br></br>
       <div className="buttonContainer">
-        <div className="codeBox"> John's</div>
+        <div className="codeBox"> John's JPEG jubilee</div>
         <button className="codeButton" > i </button>
         <button className="codeButton" > X </button>
       </div>
       <br></br>
       <div className="buttonContainer">
-        <div className="codeBox"> Abdelbar's autonomous </div>
+        <div className="codeBox"> Abdelbar's autonomous attraction</div>
         <button className="codeButton" > i </button>
         <button className="codeButton" > X  </button>
       </div>
@@ -112,7 +112,7 @@ const Account = ({ setter, user }) => {
       </div>
       <br></br>
       <div className="buttonContainer">
-        <div className="codeBox"> Renee's </div>
+        <div className="codeBox"> Renee's React renditions </div>
         <button className="codeButton" > i </button>
         <button className="codeButton" > X </button>
       </div>
