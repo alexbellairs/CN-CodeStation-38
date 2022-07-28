@@ -12,11 +12,13 @@
 
 > 2. Create/Login user functionality
 
-    - The user should be able to use a login or create a login to access the application
+    - The user should be able to use a login or create a
+    login to access the application
 
 > 3. Additional funtionality
 
-    - The theme of the application doesn't necessarily need to interact with the REST API or a Database Layer
+    - The theme of the application doesn't necessarily need to
+    interact with the REST API or a Database Layer
 
 > 4. Hosted on Netlify
 
@@ -24,11 +26,13 @@
 
 > 1. Node & Express
 
-    - The Back-End will use Node and express to create the database and functionality for Front-End integration
+    - The Back-End will use Node and express to create the database
+     and functionality for Front-End integration
 
 > 2. CREATE & READ
 
-    - Handle CREATE and READ for a user model (create user, login user)
+    - Handle CREATE and READ for a user model
+    (create user, login user)
 
 > 3. Database
 
@@ -63,9 +67,7 @@
 > - A coding content site (using a 3rd party API to pull the data from and lists them[^1])
 > - Login to account
 > - show interest in coding contents
-
-    - Users can see more details for events and add it to a list of events they plan to attend
-
+> - Users can see more details for events and add it to a list of events they plan to attend
 > - Connect to other users
 
 ###### Planning [^2]
@@ -74,55 +76,77 @@
 
 > What was your fav lecture and why?
 
-    - *All lectures were enjoyable and new to me which has helped me grasp certain technical terminologies. Probably my favourite lecture is react because its very interesting.* - ![Abdel](https://github.com/Javabar)
+    > *All lectures were enjoyable and new to me which has helped me grasp certain
+    technical terminologies. Probably my favourite lecture is react because its very
+     interesting.* - ![Abdel](https://github.com/Javabar)
 
 > What was your fav lecture and why?
 
-    - *Andy's lecture on react filled in all this missing pieces of information I had over react, but my favourite was Andy's lecture on the REST API, I had been working on it the evening prior and Andy had all the answers to my questions.* - ![Kat](https://github.com/Indykatz)
+    > *Andy's lecture on react filled in all this missing pieces of information I had over
+     react, but my favourite was Andy's lecture on the REST API, I had been working on it the
+     evening prior and Andy had all the answers to my questions.* - ![Kat](https://github.com/Indykatz)
 
 > What did you struggle with?
 
-    - *Probably initially with problem solving especially during the clone website task as it forced me to dig deep into how to tackle the problem and clone the site as it should be.* - Abdel
+    > *Probably initially with problem solving especially during the clone website task
+     as it forced me to dig deep into how to tackle the problem and clone the site as
+     it should be.* - Abdel
 
 > What did you find easiest?
 
-    - *Anything to do with Animations, CSS and creative works. sign me up!* - ![John](https://github.com/jbridges373)
+    > *Anything to do with Animations, CSS and creative works. sign me up!* - ![John](https://github.com/jbridges373)
 
 > What is one thing you learned from working as a team on your final project?
 
-    - *Using Miro to communicate more effectively with a group of people about design. I will be using in the future with clients.* - ![Dom](https://github.com/harb0t)
+    > *Using Miro to communicate more effectively with a group of people about
+     design. I will be using in the future with clients.* - ![Dom](https://github.com/harb0t)
 
 > If you could change anything within the course, what and why?
 
-    - *If I could change anything, it most likely would be the length of time to learn React, it was what a lot of us struggled on, but we also learned a lot from our mistakes. Throughout this project, we turned our Ls into Learning and turned conflict into communication and that was the most important aspect in this course.* - Wren
+    > *If I could change anything, it most likely would be the length of time to learn
+    React, it was what a lot of us struggled on, but we also learned a lot from our mistakes.
+     Throughout this project, we turned our Ls into Learning and turned conflict into
+     communication and that was the most important aspect in this course.* - ![Wren](https://github.com/Wren4Wren)
 
 > Where do you see yourself post-course (completely optional)?
 
-    - *Hopefully a job. Would like to try and brush up further my web dev skills, look towards tools for game dev and find an opportunity to learn with a company* - Dom
-    - *I am hopeful for the opportunity with Grayce for the Tech + programme as it would be a live changing for me, however I would also like to grow as a instructor both as a volunteer for Wirral Code Club and CoderDojo but also for amazing company like Code Nation. I feel I have so many options after this course and this is the start of my life. Who said life couldn't begin at 40* - Kat
-    - * see myself working in the industry so applying for now is key once I land the job then improving on the skills I gained during the 3 month bootcamp is a must.* - Abdel
-    - *Freelance work in Web Development so I can become and call myself an Expert in React, Tailwind, JavaScript and Next.js* - John
-    - *I hope to enjoy the summer holidays with my daughter, celebrate her 3rd birthday before her first day at school and then join the next cohort for Cyber at CodeNation.* - Wren :mortar_board:
+    > *Hopefully a job. Would like to try and brush up further my web dev skills, look
+     towards tools for game dev and find an opportunity to learn with a company* - Dom
+    >
+    > *I am hopeful for the opportunity with Grayce for the Tech + programme as it would
+      be a live changing for me, however I would also like to grow as a instructor both as
+      a volunteer for Wirral Code Club and CoderDojo but also for amazing company like Code Nation.
+      I feel I have so many options after this course and this is the start of my life.
+      Who said life couldn't begin at 40* - Kat
+    >
+    > * see myself working in the industry so applying for now is key once I land the job
+      then improving on the skills I gained during the 3 month bootcamp is a must.* - Abdel
+    >
+    > *Freelance work in Web Development so I can become and call myself an Expert in React,
+      Tailwind, JavaScript and Next.js* - John
+    >
+    > *I hope to enjoy the summer holidays with my daughter, celebrate her 3rd birthday before
+      her first day at school and then join the next cohort for Cyber at CodeNation.* - Wren :mortar_board:
 
 [^1]:
-    ![Contests API](https://kontests.net/api/v1/all)
-    ![Quotes API](https://programming-quotes-api.herokuapp.com/Quotes/random)
+    [Contests API](https://kontests.net/api/v1/all)
+    [Quotes API](https://programming-quotes-api.herokuapp.com/Quotes/random)
 
 [^2]:
-    ![Miro page](https://miro.com/app/board/uXjVOlLQruY=/?share_link_id=858956996815)
-    ![Figma page](https://www.figma.com/file/lyiCZsXzJWzd8yvyXL7SeO/Code-Station-Design)  
-    ![Trello](https://trello.com/b/3IlGLWY9/team-2)
+    [Miro page](https://miro.com/app/board/uXjVOlLQruY=/?share_link_id=858956996815)
+    [Figma page](https://www.figma.com/file/lyiCZsXzJWzd8yvyXL7SeO/Code-Station-Design)  
+    [Trello](https://trello.com/b/3IlGLWY9/team-2)
 
 [^3]:
-    ![Kat](https://github.com/Indykatz)
-    ![Gareth](https://github.com/garethhough)
-    ![Dom](https://github.com/harb0t)
-    ![Karl](https://github.com/KarlEvans70)
-    ![Alex B](https://github.com/alexbellairs)
-    ![Wren](https://github.com/Wren4Wren)
-    ![James](https://github.com/jamlindsay97)
-    ![John](https://github.com/jbridges373)
-    ![Abdel](https://github.com/Javabar)
+    [Kat](https://github.com/Indykatz)
+    [Gareth](https://github.com/garethhough)
+    [Dom](https://github.com/harb0t)
+    [Karl](https://github.com/KarlEvans70)
+    [Alex B](https://github.com/alexbellairs)
+    [Wren](https://github.com/Wren4Wren)
+    [James](https://github.com/jamlindsay97)
+    [John](https://github.com/jbridges373)
+    [Abdel](https://github.com/Javabar)
 
 <details><summary>Create React App Documentation</summary>
 <p>
