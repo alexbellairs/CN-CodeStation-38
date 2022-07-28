@@ -1,64 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@900&display=swap");
+
 .AppStyles {
-  text-align: center;
-  /* border: solid 1px black; */
-  /* padding: 10px; */
-  width: auto;
-}
-.Header1Styled {
-  margin-bottom: 20px;
+  left: 0px;
+  top: 0px;
 }
 
-.Wrapper {
-  max-width: 1500px;
-  min-width: 330px;
+.AboutPageMainContainer {
   display: flex;
-  flex-wrap: wrap;
   flex-direction: row;
-  justify-content: space-between;
-  margin-bottom: 15em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.WhatIsTitle {
+  color: #0e6029;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  text-align: left;
+  font-size: 2em;
+  margin-left: 5px;
+  margin-bottom: 5px;
 }
 
 .whatIsCodestation {
-  min-height: 30%;
-  width: 45%;
-  position: absolute;
-  left: 0;
-  height: auto;
   display: flex;
-  flex-wrap: wrap;
-  flex-shrink: auto;
+  flex-direction: column;
+  width: 45%;
+}
+
+.TextAndPicture {
+  display: flex;
   flex-direction: row;
-  flex-shrink: auto;
-  top: 249px;
+  height: 100%;
+}
+
+.whatIsTextBox {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
   background: #0e6029;
+  width: 40%;
+}
+
+.aboutH3 {
+  color: white;
+  margin-left: 5px;
+}
+
+.aboutP {
+  color: white;
+  font-family: "Inter", sans-serif;
+  font-size: 95%;
+  margin: 5px;
+}
+
+#prettyCodeLightImg {
+  width: 50%;
+  object-fit: cover;
   border-radius: 0px 30px 30px 0px;
 }
 
-.ContentFlexBox {
-  min-height: 30%;
-  width: 50%;
-  position: absolute;
-  right: 0;
-  height: auto;
+.TeamProfiles {
+  display: flex;
+  flex-direction: column;
+  width: 55%;
+  height: 100%;
+}
+
+.WhoMadeThisTitle {
+  color: #0e6029;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  text-align: right;
+  font-size: 2em;
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+
+/* Profile pic boxes CSS */
+
+.TopThreeProfiles {
   display: flex;
   flex-wrap: wrap;
-  flex-shrink: auto;
   flex-direction: row;
-  flex-shrink: auto;
-  top: 249px;
+  justify-content: space-evenly;
+  margin-bottom: 5px;
+}
+
+.MiddleThreeProfiles {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-bottom: 5px;
+}
+.BottomThreeProfiles {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  justify-content: space-evenly;
+}
+
+.EveryonesProfilesBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  justify-content: center;
+  align-content: center;
   background: #0e6029;
   border-radius: 30px 0px 0px 30px;
 }
 
-.ContentItemBox {
-  border: solid 1px black;
-  padding: 10px;
-  font-size: 20px;
-  margin: 10px;
-  margin-right: 20px;
+.ProfileBoxPadding {
+  padding: 5%;
 }
 
-/* @media (max-width: 768px) {
-    flex-direction: column;
-    color: red;
-  } */
+.ProfileBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-content: center;
+  width: 150px;
+  height: 150px;
+}
+
+.ProfilePicture {
+  display: flex;
+  align-self: center;
+  width: 90px;
+  height: 90px;
+  border-radius: 100%;
+  object-fit: cover;
+}
+
+.ProfileName {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  color: white;
+}
+
+.ProfileButton {
+  border: solid 1px black;
+  background-color: white;
+  text-decoration: none;
+}

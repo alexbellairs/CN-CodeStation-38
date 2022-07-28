@@ -1,0 +1,201 @@
+.LoginHeaderStyles {
+  background-color: #0e6029;
+  color: #e5ffee;
+  padding: 10px;
+  width: auto;
+  text-align: left;
+  display: flex;
+  justify-content: right;
+}
+
+.LoginImgHolder {
+  width: 625.72px;
+  padding-bottom: 4%;
+  padding-top: 4%;
+}
+
+.LoginImg {
+background: #e5ffee;
+width: 60%;
+padding-top: 20px;
+padding-bottom: 20px;
+padding-left: 40px;
+padding-right: 40px;
+
+border-radius:10px;
+}
+
+
+/* WIP */
+
+.LoginHeader{
+  display: flex;
+  height: 100%;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.LeftBlock{
+  background: #0E6029;
+  width: 2%;
+}
+
+.LeftImagePadding{
+  width:2%;
+
+}
+
+.LogoBackgroundBlock{
+  background: #0E6029;
+  justify-items: center;
+  width: 625.72px;
+
+}
+
+.RightImagePadding{
+  width:2%;
+}
+
+.RightBlock{
+  background: #0E6029;
+  width: 2%;
+}
+
+.RightContainer{
+  display: flex;
+  flex-direction: column;
+  background: #0E6029;
+  width: 80%;
+
+}
+
+.TopHeaderStrip{
+  height: 33%;
+
+}
+
+.GreenHeaderStrip{
+  background: #438759;
+  height: 33%;
+
+}
+
+.BottomHeaderStrip{
+  height: 33%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* THIS IS WHAT ADBELBAR HAD */
+/* .HeaderStyled {
+  width: auto;
+  background-color: #e5ffee;
+} */
+
+/* .Position {
+      display: flex;
+      justify-content: right;
+    } */
+
+/* .ImgStyle {
+      padding: 1%;
+      width: 25vw;
+      height: 4vw;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+    } */
+
+/* .Circle_1 {
+      width: 166px;
+      height: 159.12px;
+      margin-left: 50px;
+      margin-top: 121px;
+      margin-bottom: 20px;
+      border-radius: 90px;
+      border: 10px solid #e5ffee;
+    } */
+
+/* .Circle_2 {
+      width: 167px;
+      height: 159.12px;
+      margin-left: 50px;
+      margin-top: 100px;
+      border-radius: 90px;
+      border: 10px solid #e5ffee;
+    } */
+
+/* .Circle_3 {
+      width: 122px;
+      height: 111.19px;
+      margin-left: 50px;
+      margin-top: 150px;
+      margin-bottom: 20px;
+      border-radius: 90px;
+      border: 10px solid #e5ffee;
+    } */
+
+/* .Circle_4 {
+      width: 167px;
+      height: 159.12px;
+      margin-left: 50px;
+      margin-top: 78px;
+      margin-bottom: 20px;
+      border-radius: 90px;
+      border: 10px solid #e5ffee;
+    } */
+/* 
+    .LogoStyle {
+      padding: 2%;
+      height: 220.3px;
+      width: 444.3px;
+    } */
+
+/* .LogoBackground {
+      width: 521.01px;
+      height: 253.98px;
+      left: 148px;
+      top: 38px;
+      background: #e5ffee;
+      border-radius: 10px;
+    } */
+
+/* .FourImage {
+      position: relative;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+    } */
+
+/* .TagStyle {
+      width: 590px;
+      height: 43px;
+      left: 114px;
+      top: 349px;
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 30px;
+      line-height: 36px;
+      color: #e5ffee;
+      font-size: 30px;
+      font-weight: 600;
+      text-align: left;
+    } */
+
+/* .MidRectangle {
+      width: 1179px;
+      height: 277px;
+      left: 741px;
+      top: 54px;
+      background: #438759;
+    } */

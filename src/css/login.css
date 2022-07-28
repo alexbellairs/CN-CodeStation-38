@@ -1,12 +1,73 @@
-.AppStyles{
-    /* width: 1920px;
-    height: 1080px; */
-    left: 0px;
-    top: 0px;
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@900&display=swap');
+
+
+
+
+
+/* Body CSS */
+
+.MasterContainer{
+
+padding-bottom: 2%;
+display: flex;
+height: 100%;
+flex-direction: row;
+justify-content: center;
+
 }
 
+
+.LeftMainImagePadding{
+    width:4%;
+
+}
+
+.RightMainImagePadding{
+    width:2%;
+}
+
+
+
+
+
+/* Landing Page Image CSS */
+
+
+.WomanImg{
+    width: 625.72px;
+    height: 500.58px;
+    border-radius: 0px 0px 275px 275px;
+    object-fit: cover;
+}
+
+
+
+.FingerTipsText{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 58px;
+    
+    color: #0E6029;
+    }
+
+/* Log in / Sign Up Buttons CSS */
+
+.SignUpNowContainer{
+    display: flex;
+}
+
+.SignUpButtonContainer{
+    padding-right: 5%;
+    padding-bottom: 10%;
+}
+
+
 .SignupStyle {
-    /* position: absolute; */
     width: 315.71px;
     height: 73.24px;
     left: 1173px;
@@ -16,18 +77,24 @@
     font-family: 'Inter';
     font-style: normal;
     font-weight: 900;
-    font-size: 48px;
+    font-size: 200%;
     line-height: 58px;
     color: #FFFFFF;
 }
 
-.ImgStyle2{
-    width: 625.72px;
-    height: 500.58px;
-    /* margin-left: 97.05px;
-    margin-top: 406.08px; */
-    border-radius: 0px 0px 275px 275px;
-    float: left;
+
+.LogInSignUpContainer {
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+
+}
+
+.FieldsContainer{
+    display: flex;
+    flex-direction: column;
 }
 
 .AlreadyHaveStyle{
@@ -38,23 +105,24 @@
     font-family: 'Inter';
     font-style: normal;
     font-weight: 500;
-    font-size: 24px;
+    font-size: 100%;
     line-height: 29px;
-    color: #0E6029;
+    color: #FFFFFF;
+    border-radius: 100px;
+    background-color: #438759;
+}
+
+.SignUpButtonAndFields{
+    display: flex;
+    flex-direction: row-reverse;
     
 }
 
-.Text{
-width: 734px;
-height: 272px;
-left: 988px;
-top: 449px;
-float: right;
-font-family: 'Inter';
-font-style: normal;
-font-weight: 900;
-font-size: 48px;
-line-height: 58px;
+.InputFields{
+    display: flex;
+    flex-direction: column;
 
-color: #0E6029;
 }
+
+/* WIP */
+

@@ -1,7 +1,12 @@
 import styled from "styled-components";
 
 export const HeaderStyled = styled.div`
-  border: solid 1px black;
   padding: 10px;
   width: auto;
+  text-align: right;
+`;
+
+export const HeaderLogo = styled.img`
+  padding: 10px;
+  width: 250px;
 `;

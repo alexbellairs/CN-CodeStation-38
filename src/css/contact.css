@@ -1,51 +1,95 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
 
 .contactPage {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  min-height: 772px;
   background-color: #e5ffee;
 }
 
-img {
-  position: absolute;
-  left: 0px;
-  width: 1046px;
-  height: 843;
+.MainContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
+/* photo styling */
+.contactImage {
+  display: flex;
+  width: 900px;
+  height: 700px;
+  object-fit: contain;
+  height: 100%;
+}
+
+/* message section */
 .contactInput {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
-  left: 1050px;
-  position: absolute;
+  justify-content: space-evenly;
+  margin-right: 5px;
 }
 
-h1 {
+.ContactFields {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+/* green colour not working for some reason */
+.ContactFormTitle {
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 32px;
   line-height: 40px;
+  color: #0e6029;
 }
 
-.name {
+/* message boxes styling */
+
+.ContactFormText {
   font-family: "Inter";
   font-style: normal;
   font-weight: 600;
-  font-size: 15px;
+  font-size: 14px;
   line-height: 18px;
   text-align: right;
   color: #0e6029;
 }
 
-.nameBox {
+.smallBox {
   box-sizing: border-box;
-  width: 375px;
-  height: 48px;
-  left: 1330px;
+  width: 320px;
+  height: 45px;
   background: #ffffff;
   border: 1px solid #0e6029;
   border-radius: 5px;
+}
+
+.bigBox {
+  box-sizing: border-box;
+  width: 320px;
+  height: 320px;
+  background: #ffffff;
+  border: 1px solid #0e6029;
+  border-radius: 5px;
+}
+
+/* submit button styling */
+
+.submitBtn {
+  background: #0e6029;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  border: none;
+  width: 180px;
+  height: 40px;
+  
+  /* text styling */
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 35px;
+  text-align: center;
+  color: #e5ffee;
 }

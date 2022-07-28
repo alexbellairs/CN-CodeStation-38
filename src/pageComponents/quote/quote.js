@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
-import { fetchQuotes } from "../utlis";
-import "../css/quote.css";
+import { fetchQuotes } from "../../utlis";
+import { QuoteStyled } from "./quote.styles";
 
 const Quote = () => {
   const [quote, setQuote] = useState([]);
@@ -9,11 +9,11 @@ const Quote = () => {
     fetchQuotes(setQuote);
   }, []);
   return (
-    <div className="quote">
+    <QuoteStyled>
       <p>
         "{quote.en}" <b>{quote.author}</b>
       </p>
-    </div>
+    </QuoteStyled>
   );
 };
 

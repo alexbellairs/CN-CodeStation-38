@@ -1,9 +1,10 @@
-import "../css/footer.css";
+import "./footer.css";
+import { FooterStyled, FooterH4Styled } from "./footer.styles";
 
 const Footer = () => {
   return (
-    <div className="FooterStyled">
-      <h1 className="FooterH4Styled">2022 CodeNation M38 Group 2</h1>
+    <FooterStyled>
+      <FooterH4Styled>2022 CodeNation M38 Group 2</FooterH4Styled>
       <div className="FooterLinksStyled">
         <a
           href="https://github.com/alexbellairs"
@@ -77,7 +78,7 @@ const Footer = () => {
           Wren4Wren
         </a>
       </div>
-    </div>
+    </FooterStyled>
   );
 };
 

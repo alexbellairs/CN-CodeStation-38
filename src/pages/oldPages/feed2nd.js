@@ -1,19 +1,21 @@
 import { useEffect, useState } from "react";
 // import Navbar from "../components/navbar";
-import { fetchContest } from "../utlis";
+// import { fetechContest } from "../utlis";
 import ContestComp from "../components/contest";
-import Quote from "../components/quote";
+import Quote from "../pageComponents/quote/quote";
+import { fetchContest } from "../utlis";
 
-const Events = ({ setter, user }) => {
+const Feed = ({ setter, user }) => {
   // useState
   const [contests, setContest] = useState([]);
-  const storeContests = [...contests];
+
   useEffect(() => {
     fetchContest(setContest);
   }, []);
 
   // Handle click for removing items
   const handleRemove = (index) => {
+    let storeContests = [...contests];
     storeContests.splice(index, 1);
     setContest(storeContests);
   };
@@ -35,31 +37,29 @@ const Events = ({ setter, user }) => {
 
   return (
     <div>
-      <div className="eventsPage">
-        <Quote />
-        <h1 className="Header1Styled">Events</h1>
+      <Quote />
+      <h1 className="Header1Styled">feed</h1>
+      <div>
         <div>
-          <div>
-            {contests.map((contest, i) => {
-              return (
-                <ContestComp
-                  key={i}
-                  name={contest.name}
-                  url={contest.url}
-                  start_time={contest.start_time}
-                  end_time={contest.end_time}
-                  site={contest.site}
-                  status={contest.status}
-                  handleInterested={() => handleInterested(i)}
-                />
-              );
-            })}
-            ,
-          </div>
+          {contests.map((contest, i) => {
+            return (
+              <ContestComp
+                key={i}
+                name={contest.name}
+                url={contest.url}
+                start_time={contest.start_time}
+                end_time={contest.end_time}
+                site={contest.site}
+                status={contest.status}
+                handleInterested={() => handleInterested(i)}
+              />
+            );
+          })}
+          ,
         </div>
       </div>
     </div>
   );
 };
 
-export default Events;
+export default Feed;

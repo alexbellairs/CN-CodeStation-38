@@ -1,4 +1,4 @@
-// import "../css/events.css";
+import "../css/events.css";
 
 const ContestComp = ({
   name,
