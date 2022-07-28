@@ -1,5 +1,6 @@
-import { HeaderStyled, HeaderLogo } from "./header.styles";
+// My name is John Bridges and I worked on the Train logo animation using Framer-motion from the npm library.
 
+import { HeaderStyled, HeaderLogo } from "./header.styles";
 import Logo from "../../images/codeStationRectangleLogo.png";
 import { motion } from "framer-motion";
 
