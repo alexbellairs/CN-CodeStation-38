@@ -1,5 +1,4 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Navbar from "./components/navbar";
 
 import Login from "./pages/login";
 import Feed from "./pages/feed";
@@ -17,9 +16,7 @@ const App = () => {
   const [user, setUser] = useState();
   return (
     <div className="AppStyles">
-      {user && <Header />}
       <BrowserRouter>
-        {user && <Navbar />}
         <Routes>
           <Route path="/" element={<Login setter={setUser} user={user} />} />
 

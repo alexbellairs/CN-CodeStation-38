@@ -5,6 +5,8 @@ import "../css/app.css";
 import "../css/account.css";
 import Quote from "../pageComponents/quote/quote";
 import harold from "../images/harold.jpg";
+import Navbar from "../components/navbar";
+import Header from "../pageComponents/header1/header";
 
 const Account = ({ setter, user }) => {
   const [username, setUsername] = useState();
@@ -26,6 +28,8 @@ const Account = ({ setter, user }) => {
   <body>
     <div className="AppStyles">
       <Quote />
+      <Navbar />
+      <Header />
     <div className="ContentStyled">
         <form className="banner" onSubmit={submitHandler}>
           <h2>Update Profile</h2>
@@ -45,7 +49,7 @@ const Account = ({ setter, user }) => {
           <button className="update" type="submit">Update</button>
         </form>
         <button className="delete" onClick={() => deleteFetch(setter())}>
-          <Link to="/">Delete Account</Link>
+          <Link to="/login">Delete Account</Link>
         </button>
         <button className="logOut"
           onClick={() => {
