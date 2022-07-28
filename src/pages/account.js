@@ -60,65 +60,73 @@ const Account = ({ setter, user }) => {
     <div className="bioUserWrapper">
       <div className="userContainer">
       <h3>User</h3>
-      <div className="userBox"> HTP HAROLD</div>
+      <div className="userBox"> Harold Hidethepain</div>
       </div>
       <div className="bioContainer">
       <h3>Bio</h3>
-      <div className="bioBox"> ADSHDFIGHGKSNGDSKFHWIGHRF </div>
+      <div className="bioBox"> <p>SOLID Code?</p>
+      <p>No, my code is LIQUID,</p>
+      <p>Low</p>
+      <p>In</p>
+      <p>Quality</p>
+      <p>Unrivaled</p>
+      <p>In</p>
+      <p>Disapointment</p>
+      </div>
       </div>
       <br></br>
     </div>
     <div className="buttonWrapper">
       <div className="buttonContainer">
-        <div className="codeBox"> Alex's Android emporium</div>
+        <div className="codeBox"> Alex's Android amalgamation</div>
         <button className="codeButton" > i </button>
         <button className="codeButton" > X </button>
       </div>
       <br></br>
       <div className="buttonContainer">
-        <div className="codeBox">Gaz's  </div>
+        <div className="codeBox">Gaz's GitHub get-together </div>
         <button className="codeButton" > i </button>
         <button className="codeButton" > X </button>
       </div>
       <br></br>
       <div className="buttonContainer">
-        <div className="codeBox"> James's </div>
+        <div className="codeBox"> James's Java jaunt</div>
         <button className="codeButton" > i </button>
         <button className="codeButton" > X </button>
       </div>
       <br></br>
       <div className="buttonContainer">
-        <div className="codeBox"> Kat's concatenating course</div>
+        <div className="codeBox"> Kat's concatenating camp</div>
         <button className="codeButton" > i </button>
         <button className="codeButton" > X </button>
       </div>
       <br></br>
       <div className="buttonContainer">
-        <div className="codeBox"> John's</div>
+        <div className="codeBox"> John's JPEG jubilee</div>
         <button className="codeButton" > i </button>
         <button className="codeButton" > X </button>
       </div>
       <br></br>
       <div className="buttonContainer">
-        <div className="codeBox"> Abdelbar's autonomous </div>
+        <div className="codeBox"> Abdelbar's autonomous attraction</div>
         <button className="codeButton" > i </button>
         <button className="codeButton" > X  </button>
       </div>
       <br></br>
       <div className="buttonContainer">
-        <div className="codeBox">Karl's </div>
+        <div className="codeBox">Karl's killer Kontest API club </div>
         <button className="codeButton" > i </button>
         <button className="codeButton" > X  </button>
       </div>
       <br></br>
       <div className="buttonContainer">
-        <div className="codeBox"> Renee's </div>
+        <div className="codeBox"> Renee's React renditions </div>
         <button className="codeButton" > i </button>
         <button className="codeButton" > X </button>
       </div>
       <br></br>
       <div className="buttonContainer">
-        <div className="codeBox"> Dom's DOM domination</div>
+        <div className="codeBox"> Dom's DOM domination derby</div>
         <button className="codeButton" > i </button>
         <button className="codeButton" > X </button>
       </div>

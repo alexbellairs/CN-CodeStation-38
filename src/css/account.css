@@ -1,5 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@900&display=swap");
+
 body {
-    background-color: #E5FFEE;
+  background-color: #E5FFEE;
 }
 
 /* .AppStyles {
@@ -7,124 +9,134 @@ body {
 } */
 
 .imgH {
-  display: flex;
-  width: 150px;
-  height: 150px;
-  border-style: solid;
-  border-radius: 175px 175px 175px 175px;
-  border-color: #0e6029;
-  border-width: 4px;
-  object-fit: cover;
+display: flex;
+width: 150px;
+height: 150px;
+border-style: solid;
+border-radius: 175px 175px 175px 175px;
+border-color: #0e6029;
+border-width: 4px;
+object-fit: cover;
 }
 
 .mainContainer {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-around;
 }
 
 .bioUserWrapper {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: flex-start;
-  text-align: left;
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+justify-content: flex-start;
+text-align: left;
 }
 
 .userContainer {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
 }
 
 .userBox {
-  box-sizing: border-box;
-  padding: 2px;
-  width: 420px;
-  height: 45px;
-  background: #ffffff;
-  border: 1px solid #0e6029;
-  border-radius: 5px;
-  text-align: center;
-  font-weight: normal;
-  font-size: x-large;
+box-sizing: border-box;
+font-family: "Inter", sans-serif;
+padding: 2px;
+width: 420px;
+height: 45px;
+background: #ffffff;
+border: 1px solid #0e6029;
+border-radius: 5px;
+text-align: center;
+font-weight: normal;
+font-size: x-large;
 }
 
 .bioContainer {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
 }
 
 .bioBox {
-  box-sizing: border-box;
-  width: 420px;
-  height: 350px;
-  background: #ffffff;
-  border: 1px solid #0e6029;
-  border-radius: 5px;
-  text-align: center;
-  font-weight: normal;
-  font-size: x-large;
+box-sizing: border-box;
+font-family: "Inter", sans-serif;
+width: 420px;
+height: 350px;
+background: #ffffff;
+border: 1px solid #0e6029;
+border-radius: 5px;
+text-align: left;
+font-weight: 500;
+font-size: large;
 }
 
 .bioUserWrapper {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: flex-start;
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+justify-content: flex-start;
 }
 
 .buttonContainer {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
 }
 
 .codeBox {
-  box-sizing: border-box;
-  width: 420px;
-  height: 45px;
-  background: #ffffff;
-  border: 1px solid #0e6029;
-  border-radius: 5px;
-  background-color: #565656;
-  text-align: center;
-  font-size: x-large;
+box-sizing: border-box;
+font-family: "Inter", sans-serif;
+width: 420px;
+height: 45px;
+color:#EFffEE;
+border: 1px solid #0e6029;
+border-radius: 5px;
+background-color: #438759;
+text-align: center;
+font-size: x-large;
 }
 
 .codeButton {
-  width: 45.36px;
-  height: 45.36px;
-  color: #FFFFFF;
-  border-radius: 5px;
-  background-color: #438759;
-  font-size: x-large;
-  font-weight: 900;
+width: 45.36px;
+height: 45.36px;
+font-family: "Inter", sans-serif;
+color: #FFFFFF;
+border-radius: 5px;
+background-color: #565656;
+font-size: x-large;
+font-weight: 900;
 }
 
 .inputs {
-  background-color: #FFFFFF;
-  font-size: large;
+background-color: #FFFFFF;
+font-size: large;
+font-family: "Inter", sans-serif;
 }
 
 .logOut {
-  background-color:#E5FFEE;
-  font-size: large;
+background-color:#E5FFEE;
+font-size: large;
+font-family: "Inter", sans-serif;
 }
 
 .delete {
-  background-color: #EFffEE;
-  font-size: large;
+background-color: #EFffEE;
+font-size: large;
+font-family: "Inter", sans-serif;
 }
 
 .update {
-  background-color: #438759;
-  font-size: large;
+background-color: #EFffEE;
+font-size: large;
+font-family: "Inter", sans-serif;
 }
 .banner {
-  background-color: #438759;
-  font-size: xx-large;
-  text-align: center;
+background-color: #438759;
+font-family: "Inter", sans-serif;
+font-size: x-large;
+text-align: center;
+color:#EFffEE;
 }
