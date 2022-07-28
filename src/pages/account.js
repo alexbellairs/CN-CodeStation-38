@@ -90,7 +90,7 @@ const Account = ({ setter, user }) => {
       </div>
       <br></br>
       <div className="buttonContainer">
-        <div className="codeBox"> James's Java jaunt</div>
+        <div className="codeBox"> James's Javascript jaunt</div>
         <button className="codeButton" > i </button>
         <button className="codeButton" > X </button>
       </div>
