@@ -68,9 +68,9 @@ height: 350px;
 background: #ffffff;
 border: 1px solid #0e6029;
 border-radius: 5px;
-text-align: center;
-font-weight: normal;
-font-size: x-large;
+text-align: left;
+font-weight: 500;
+font-size: large;
 }
 
 .bioUserWrapper {
@@ -91,7 +91,7 @@ box-sizing: border-box;
 font-family: "Inter", sans-serif;
 width: 420px;
 height: 45px;
-background: #ffffff;
+color:#EFffEE;
 border: 1px solid #0e6029;
 border-radius: 5px;
 background-color: #438759;
@@ -138,5 +138,5 @@ background-color: #438759;
 font-family: "Inter", sans-serif;
 font-size: x-large;
 text-align: center;
-color: #565656;
+color:#EFffEE;
 }

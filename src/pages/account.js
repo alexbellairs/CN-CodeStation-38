@@ -60,18 +60,18 @@ const Account = ({ setter, user }) => {
     <div className="bioUserWrapper">
       <div className="userContainer">
       <h3>User</h3>
-      <div className="userBox"> HAROLD HIDETHEPAIN</div>
+      <div className="userBox"> Harold Hidethepain</div>
       </div>
       <div className="bioContainer">
       <h3>Bio</h3>
-      <div className="bioBox"> SOLID Code?
-      No my code is LIQUID,
-      Low
-      in
-      Quality
-      Unrivaled
-      In
-      Disapointment
+      <div className="bioBox"> <p>SOLID Code?</p>
+      <p>No, my code is LIQUID,</p>
+      <p>Low</p>
+      <p>In</p>
+      <p>Quality</p>
+      <p>Unrivaled</p>
+      <p>In</p>
+      <p>Disapointment</p>
       </div>
       </div>
       <br></br>
