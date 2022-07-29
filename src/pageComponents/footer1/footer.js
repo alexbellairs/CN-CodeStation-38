@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./footer.css";
 import { FooterStyled, FooterH4Styled } from "./footer.styles";
 
@@ -77,6 +78,9 @@ const Footer = () => {
         >
           Wren4Wren
         </a>
+        <p>
+          <a href="/">Home</a>
+        </p>
       </div>
     </FooterStyled>
   );

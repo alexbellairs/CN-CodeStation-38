@@ -62,9 +62,7 @@ const Account = ({ setter, user }) => {
               setter();
             }}
           >
-            <Link to="/login">
-              Log Out
-            </Link>
+            <Link to="/login">Log Out</Link>
           </button>
         </div>
         <img className="imgH" src={harold} alt="Hide the pain Harold" />
