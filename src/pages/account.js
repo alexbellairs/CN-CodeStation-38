@@ -21,6 +21,7 @@ const Account = ({ setter, user }) => {
         delete updateObj[key];
       }
     }
+    alert("Account Updated");
     await updateFetch({ username: user }, updateObj, setter);
   };
 
