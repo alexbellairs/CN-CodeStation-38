@@ -4,11 +4,15 @@ import "../css/app.css";
 import "../css/contact.css";
 import Quote from "../pageComponents/quote/quote";
 import threePeople from "../images/threePeople.jpg";
+import Navbar from "../components/navbar";
+import Header from "../pageComponents/header1/header";
 
 const Contact = () => {
   return (
     <div className="contactPage">
       <Quote />
+      <Navbar />
+      <Header />
       <div className="MainContainer">
         <div className="imageBox">
           <img className="contactImage" src={threePeople} alt="three people" />
@@ -16,27 +20,25 @@ const Contact = () => {
 
         {/* contact form */}
         <div className="contactInput">
-          <h1 className="ContactFormTitle">
-            const contact = require ‘hello there’
-          </h1>
+          <h1 className="ContactFormTitle">Contact Form</h1>
 
           <div className="ContactFields">
             <div>
-              <p className="ContactFormText">const Name =</p>
+              <p className="ContactFormText">Name</p>
             </div>
             <div className="smallBox"></div>
           </div>
 
           <div className="ContactFields">
             <div>
-              <p className="ContactFormText">const Email =</p>
+              <p className="ContactFormText">Email</p>
             </div>
             <div className="smallBox"></div>
           </div>
 
           <div className="ContactFields">
             <div>
-              <p className="ContactFormText">let Message =</p>
+              <p className="ContactFormText">Message</p>
             </div>
             <div className="bigBox"></div>
           </div>
