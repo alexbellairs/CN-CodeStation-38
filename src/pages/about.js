@@ -17,7 +17,6 @@ import James from "../images/James.png";
 import Navbar from "../components/navbar";
 import Header from "../pageComponents/header1/header";
 
-
 const About = () => {
   return (
     <div className="AppStyles">
@@ -35,15 +34,23 @@ const About = () => {
           <div className="TextAndPicture">
             <div className="whatIsTextBox">
               {/* COPY */}
-              <h3 className="aboutH3">From hackathons to code contests - get connected now!</h3>
-              <p className="aboutP"> 
-              Code Station is a networking portal to connect you to the latest coding opportunities as 
-              well as bringing you closer  to the worldwide coding community. With the Code Station feed 
-              you can browse through thousands of online and in person events then log your interest so 
-              you never miss out!
+              <h3 className="aboutH3">
+                From hackathons to code contests - get connected now!
+              </h3>
+              <p className="aboutP">
+                Code Station is a networking portal to connect you to the latest
+                coding opportunities as well as bringing you closer to the
+                worldwide coding community. With the Code Station feed you can
+                browse through thousands of online and in person events then log
+                your interest so you never miss out!
               </p>
               <p className="aboutP">
-              Powered with the wealth of data offered by Kontests API, you can browse through a huge range of coding events to pick and choose - whatever takes your interest! Events range from, Java or Python contests, C Sharp and C++ challenges, to Swift or Lua networking, all is on offer from grassroots coding collectives to multinational companies.
+                Powered with the wealth of data offered by Kontests API, you can
+                browse through a huge range of coding events to pick and choose
+                - whatever takes your interest! Events range from, Java or
+                Python contests, C Sharp and C++ challenges, to Swift or Lua
+                networking, all is on offer from grassroots coding collectives
+                to multinational companies.
               </p>
               {/* PHOTO */}
             </div>
@@ -65,62 +72,140 @@ const About = () => {
               <div className="TopThreeProfiles">
                 {/* PROFILE 1 */}
                 <div className="ProfileBox">
-                  <img className="ProfilePicture" src={Kat} alt="Profile pic"></img>
+                  <img
+                    className="ProfilePicture"
+                    src={Kat}
+                    alt="Profile pic"
+                  ></img>
                   <div className="ProfileName">Kat</div>
-                  <a class="ProfileButton" href="https://github.com/Indykatz">Link to Git</a>
+                  <a
+                    className="ProfileButton"
+                    href="https://github.com/Indykatz"
+                  >
+                    Link to Git
+                  </a>
                 </div>
                 {/* PROFILE 2 */}
                 <div className="ProfileBox">
-                  <img className="ProfilePicture" src={Dom} alt="Profile pic"></img>
+                  <img
+                    className="ProfilePicture"
+                    src={Dom}
+                    alt="Profile pic"
+                  ></img>
                   <div className="ProfileName">Dom</div>
-                  <a class="ProfileButton" href="https://github.com/harb0t">Link to Git</a>
+                  <a className="ProfileButton" href="https://github.com/harb0t">
+                    Link to Git
+                  </a>
                 </div>
 
                 {/* PROFILE 3 */}
                 <div className="ProfileBox">
-                  <img className="ProfilePicture" src={Wren} alt="Profile pic"></img>
+                  <img
+                    className="ProfilePicture"
+                    src={Wren}
+                    alt="Profile pic"
+                  ></img>
                   <div className="ProfileName">Wren</div>
-                  <a class="ProfileButton" href="https://github.com/Wren4Wren">Link to Git</a>
+                  <a
+                    className="ProfileButton"
+                    href="https://github.com/Wren4Wren"
+                  >
+                    Link to Git
+                  </a>
                 </div>
               </div>
 
               <div className="MiddleThreeProfiles">
                 <div className="ProfileBox">
-                  <img className="ProfilePicture" src={Alex} alt="Profile pic"></img>
+                  <img
+                    className="ProfilePicture"
+                    src={Alex}
+                    alt="Profile pic"
+                  ></img>
                   <div className="ProfileName">Alex B</div>
-                  <a class="ProfileButton" href="https://github.com/alexbellairs">Link to Git</a>
+                  <a
+                    className="ProfileButton"
+                    href="https://github.com/alexbellairs"
+                  >
+                    Link to Git
+                  </a>
                 </div>
 
                 <div className="ProfileBox">
-                  <img className="ProfilePicture" src={Gaz} alt="Profile pic"></img>
+                  <img
+                    className="ProfilePicture"
+                    src={Gaz}
+                    alt="Profile pic"
+                  ></img>
                   <div className="ProfileName">Gaz</div>
-                  <a class="ProfileButton" href="https://github.com/garethhough">Link to Git</a>
+                  <a
+                    className="ProfileButton"
+                    href="https://github.com/garethhough"
+                  >
+                    Link to Git
+                  </a>
                 </div>
 
                 <div className="ProfileBox">
-                  <img className="ProfilePicture" src={Karl} alt="Profile pic"></img>
+                  <img
+                    className="ProfilePicture"
+                    src={Karl}
+                    alt="Profile pic"
+                  ></img>
                   <div className="ProfileName">Karl</div>
-                  <a class="ProfileButton" href="https://github.com/KarlEvans70">Link to Git</a>
+                  <a
+                    className="ProfileButton"
+                    href="https://github.com/KarlEvans70"
+                  >
+                    Link to Git
+                  </a>
                 </div>
               </div>
 
               <div className="BottomThreeProfiles">
                 <div className="ProfileBox">
-                  <img className="ProfilePicture" src={James} alt="Profile pic"></img>
+                  <img
+                    className="ProfilePicture"
+                    src={James}
+                    alt="Profile pic"
+                  ></img>
                   <div className="ProfileName">James</div>
-                  <a class="ProfileButton" href="https://github.com/jamlindsay97">Link to Git</a>
+                  <a
+                    className="ProfileButton"
+                    href="https://github.com/jamlindsay97"
+                  >
+                    Link to Git
+                  </a>
                 </div>
 
                 <div className="ProfileBox">
-                  <img className="ProfilePicture" src={Abdelbar} alt="Profile pic"></img>
+                  <img
+                    className="ProfilePicture"
+                    src={Abdelbar}
+                    alt="Profile pic"
+                  ></img>
                   <div className="ProfileName">Abdelbar</div>
-                  <a class="ProfileButton" href="https://github.com/Javabar">Link to Git</a>
+                  <a
+                    className="ProfileButton"
+                    href="https://github.com/Javabar"
+                  >
+                    Link to Git
+                  </a>
                 </div>
 
                 <div className="ProfileBox">
-                  <img className="ProfilePicture" src={John} alt="Profile pic"></img>
+                  <img
+                    className="ProfilePicture"
+                    src={John}
+                    alt="Profile pic"
+                  ></img>
                   <div className="ProfileName">John</div>
-                  <a class="ProfileButton" href="https://github.com/jbridges373">Link to Git</a>
+                  <a
+                    className="ProfileButton"
+                    href="https://github.com/jbridges373"
+                  >
+                    Link to Git
+                  </a>
                 </div>
               </div>
             </div>

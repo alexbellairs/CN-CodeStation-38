@@ -26,7 +26,7 @@ const Account = ({ setter, user }) => {
   };
 
   return (
-    <body>
+    <div>
       <div className="AppStyles">
         <Quote />
         <Navbar />
@@ -54,7 +54,7 @@ const Account = ({ setter, user }) => {
               Update
             </button>
           </form>
-          <button className="delete" onClick={() => deleteFetch(setter())}>
+          <button className="delete" onClick={() => deleteFetch(setter)}>
             <Link to="/login">Delete Account</Link>
           </button>
           <button
@@ -148,7 +148,7 @@ const Account = ({ setter, user }) => {
         </div>
       </div>
       <div className="contactInput"></div>
-    </body>
+    </div>
   );
 };
 

@@ -20,14 +20,12 @@ const App = () => {
           <Route path="/" element={<Login setter={setUser} user={user} />} />
 
           <Route path="/about" element={<About />} />
-          <Route path="/account" element={<Account />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/feed" element={<Feed />} />
-
           <Route
             path="/account"
             element={<Account setter={setUser} user={user} />}
           />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/feed" element={<Feed />} />
         </Routes>
         <Footer />
       </BrowserRouter>
