@@ -9,7 +9,7 @@ const Header = () => {
     <HeaderStyled>
       <motion.div
         initial={{
-          x: -420,
+          x: -1985,
         }}
         animate={{
           x: 0,
@@ -18,7 +18,7 @@ const Header = () => {
           delay: 1,
           duration: 10,
           type: "spring",
-          stiffness: 200,
+          stiffness: 100,          
         }}
       >
         <HeaderLogo src={Logo} alt="logo" style={{ width: "400px" }} />
